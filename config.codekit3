@@ -7,11 +7,12 @@
 		"uuidString": "9EFD99D6-E899-4432-AF2E-2D667C7DC8C8"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitattributes",
 		"oF": 0
@@ -19,209 +20,239 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_about.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_about.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_about.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_about.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_annual-catalogues.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_annual-catalogues.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_annual-catalogues.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_annual-catalogues.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_art-vs-practice.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_art-vs-practice.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_art-vs-practice.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_art-vs-practice.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_board.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_board.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_board.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_board.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_contact.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_contact.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_contact.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_contact.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_donate.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_donate.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_donate.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_donate.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_education.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_education.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_education.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_education.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_home.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_home.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_home.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_home.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_subscribe.scssc": {
+	"/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_subscribe.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/40faf18555c9ac0404768f5760112d3617dc32ef/_subscribe.scssc",
+		"oAP": "/.sass-cache/0f133eef3ab5b8306218255fba7da02707363540/_subscribe.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_announcement.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_announcement.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_announcement.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_announcement.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_buttons.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_buttons.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_buttons.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_carousel.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_carousel.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_carousel.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_carousel.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_dividers.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_dividers.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_dividers.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_dividers.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_exhibitions.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_exhibitions.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_exhibitions.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_exhibitions.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_fonts.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_fonts.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_fonts.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_fonts.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_footer.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_footer.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_footer.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_general.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_general.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_general.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_general.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_headers.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_headers.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_headers.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_headers.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_images.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_images.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_images.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_images.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_navigation.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_navigation.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_navigation.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_navigation.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_news.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_news.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_news.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_news.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_paginator.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_paginator.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_paginator.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_paginator.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_public-programs.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_public-programs.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_public-programs.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_public-programs.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_side-nav.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_side-nav.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_side-nav.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_side-nav.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_tabs.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_tabs.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_tabs.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_tabs.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_text.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_text.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_text.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_text.scssc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_toolbox.sassc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_toolbox.sassc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_toolbox.sassc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_toolbox.sassc",
 		"oF": 0
 		},
-	"/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_variables.scssc": {
+	"/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/.sass-cache/f3ac92694e5f90afd9c32d434360b1914371456e/_variables.scssc",
+		"oAP": "/.sass-cache/d999821d2fc76d9675156944f94a7faab0a88087/_variables.scssc",
 		"oF": 0
 		},
 	"/404.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/404.markdown",
 		"oF": 0
@@ -229,6 +260,7 @@
 	"/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/_config.yml",
 		"oF": 0
@@ -236,6 +268,7 @@
 	"/_exhibitions/a-shape-that-stands-up.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/a-shape-that-stands-up.markdown",
 		"oF": 0
@@ -243,6 +276,7 @@
 	"/_exhibitions/alex-da-corte.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/alex-da-corte.markdown",
 		"oF": 0
@@ -250,6 +284,7 @@
 	"/_exhibitions/artists-in-residence-dale-brockman-davis-alia-brown-and-sandy-rodriguez.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/artists-in-residence-dale-brockman-davis-alia-brown-and-sandy-rodriguez.markdown",
 		"oF": 0
@@ -257,6 +292,7 @@
 	"/_exhibitions/fred-eversley-black-white-gray.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/fred-eversley-black-white-gray.markdown",
 		"oF": 0
@@ -264,6 +300,7 @@
 	"/_exhibitions/head-back-and-high.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/head-back-and-high.markdown",
 		"oF": 0
@@ -271,6 +308,7 @@
 	"/_exhibitions/librettos-manuel-de-falla-slash-stokely-carmichael.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/librettos-manuel-de-falla-slash-stokely-carmichael.markdown",
 		"oF": 0
@@ -278,6 +316,7 @@
 	"/_exhibitions/loving.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/loving.markdown",
 		"oF": 0
@@ -285,6 +324,7 @@
 	"/_exhibitions/njideka-akunyili-crosby-the-beautyful-ones-and-two-films-by-akosua-adoma-owusu.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/njideka-akunyili-crosby-the-beautyful-ones-and-two-films-by-akosua-adoma-owusu.markdown",
 		"oF": 0
@@ -292,6 +332,7 @@
 	"/_exhibitions/rag-man.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/rag-man.markdown",
 		"oF": 0
@@ -299,6 +340,7 @@
 	"/_exhibitions/ruben-ochoa.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/ruben-ochoa.markdown",
 		"oF": 0
@@ -306,6 +348,7 @@
 	"/_exhibitions/slavery-the-prison-industrial-complex.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/slavery-the-prison-industrial-complex.markdown",
 		"oF": 0
@@ -313,6 +356,7 @@
 	"/_exhibitions/the-spirit-of-things.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/the-spirit-of-things.markdown",
 		"oF": 0
@@ -320,6 +364,7 @@
 	"/_exhibitions/time-is-running-out-of-time-experimental-film-and-video-from-the-la-rebellion-and-today.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_exhibitions/time-is-running-out-of-time-experimental-film-and-video-from-the-la-rebellion-and-today.markdown",
 		"oF": 0
@@ -327,6 +372,7 @@
 	"/_includes/about/board-listing.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/about/board-listing.html",
 		"oF": 0
@@ -334,6 +380,7 @@
 	"/_includes/about/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/about/nav.html",
 		"oF": 0
@@ -341,6 +388,7 @@
 	"/_includes/announcement.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/announcement.html",
 		"oF": 0
@@ -348,6 +396,7 @@
 	"/_includes/base/grouping-heading.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/base/grouping-heading.html",
 		"oF": 0
@@ -355,6 +404,7 @@
 	"/_includes/base/image.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/base/image.html",
 		"oF": 0
@@ -362,6 +412,7 @@
 	"/_includes/carousel.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/carousel.html",
 		"oF": 0
@@ -369,6 +420,7 @@
 	"/_includes/exhibitions/abstract-abbreviated-mobile.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/exhibitions/abstract-abbreviated-mobile.html",
 		"oF": 0
@@ -376,6 +428,7 @@
 	"/_includes/exhibitions/abstract-calendar.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/exhibitions/abstract-calendar.html",
 		"oF": 0
@@ -383,6 +436,7 @@
 	"/_includes/exhibitions/abstract.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/exhibitions/abstract.html",
 		"oF": 0
@@ -390,6 +444,7 @@
 	"/_includes/exhibitions/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/exhibitions/nav.html",
 		"oF": 0
@@ -397,6 +452,7 @@
 	"/_includes/exhibitions/show-nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/exhibitions/show-nav.html",
 		"oF": 0
@@ -404,6 +460,7 @@
 	"/_includes/footer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/footer.html",
 		"oF": 0
@@ -411,6 +468,7 @@
 	"/_includes/fys/my-first-place-nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/fys/my-first-place-nav.html",
 		"oF": 0
@@ -418,6 +476,7 @@
 	"/_includes/fys/my-first-place-subpage-nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/fys/my-first-place-subpage-nav.html",
 		"oF": 0
@@ -425,6 +484,7 @@
 	"/_includes/fys/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/fys/nav.html",
 		"oF": 0
@@ -432,6 +492,7 @@
 	"/_includes/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/nav.html",
 		"oF": 0
@@ -439,6 +500,7 @@
 	"/_includes/news/abstract-abbreviated-mobile.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/news/abstract-abbreviated-mobile.html",
 		"oF": 0
@@ -446,6 +508,7 @@
 	"/_includes/news/abstract.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/news/abstract.html",
 		"oF": 0
@@ -453,6 +516,7 @@
 	"/_includes/news/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/news/nav.html",
 		"oF": 0
@@ -460,6 +524,7 @@
 	"/_includes/page-subheader.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/page-subheader.html",
 		"oF": 0
@@ -467,6 +532,7 @@
 	"/_includes/paginator.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/paginator.html",
 		"oF": 0
@@ -474,6 +540,7 @@
 	"/_includes/public-programs/abstract-abbreviated-mobile.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/public-programs/abstract-abbreviated-mobile.html",
 		"oF": 0
@@ -481,6 +548,7 @@
 	"/_includes/public-programs/abstract-calendar.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/public-programs/abstract-calendar.html",
 		"oF": 0
@@ -488,6 +556,7 @@
 	"/_includes/public-programs/abstract.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/public-programs/abstract.html",
 		"oF": 0
@@ -495,6 +564,7 @@
 	"/_includes/public-programs/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/public-programs/nav.html",
 		"oF": 0
@@ -502,6 +572,7 @@
 	"/_includes/public-programs/show-nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/public-programs/show-nav.html",
 		"oF": 0
@@ -509,6 +580,7 @@
 	"/_includes/tabs.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/tabs.html",
 		"oF": 0
@@ -516,6 +588,7 @@
 	"/_includes/terms-and-conditions-nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_includes/terms-and-conditions-nav.html",
 		"oF": 0
@@ -523,6 +596,7 @@
 	"/_layouts/about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/about.html",
 		"oF": 0
@@ -530,6 +604,7 @@
 	"/_layouts/annual-catalogues.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/annual-catalogues.html",
 		"oF": 0
@@ -537,6 +612,7 @@
 	"/_layouts/board.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/board.html",
 		"oF": 0
@@ -544,6 +620,7 @@
 	"/_layouts/calendar-month.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/calendar-month.html",
 		"oF": 0
@@ -551,6 +628,7 @@
 	"/_layouts/default.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/default.html",
 		"oF": 0
@@ -558,6 +636,7 @@
 	"/_layouts/donate.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/donate.html",
 		"oF": 0
@@ -565,6 +644,7 @@
 	"/_layouts/education.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/education.html",
 		"oF": 0
@@ -572,6 +652,7 @@
 	"/_layouts/exhibitions-list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/exhibitions-list.html",
 		"oF": 0
@@ -579,6 +660,7 @@
 	"/_layouts/exhibitions-on-view.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/exhibitions-on-view.html",
 		"oF": 0
@@ -586,6 +668,7 @@
 	"/_layouts/exhibitions-past.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/exhibitions-past.html",
 		"oF": 0
@@ -593,6 +676,7 @@
 	"/_layouts/exhibitions-show.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/exhibitions-show.html",
 		"oF": 0
@@ -600,6 +684,7 @@
 	"/_layouts/exhibitions-upcoming.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/exhibitions-upcoming.html",
 		"oF": 0
@@ -607,6 +692,7 @@
 	"/_layouts/fourohfour.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/fourohfour.html",
 		"oF": 0
@@ -614,6 +700,7 @@
 	"/_layouts/fys-about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/fys-about.html",
 		"oF": 0
@@ -621,6 +708,7 @@
 	"/_layouts/fys-my-first-place-subpage.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/fys-my-first-place-subpage.html",
 		"oF": 0
@@ -628,6 +716,7 @@
 	"/_layouts/fys-my-first-place.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/fys-my-first-place.html",
 		"oF": 0
@@ -635,6 +724,7 @@
 	"/_layouts/home.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/home.html",
 		"oF": 0
@@ -642,6 +732,7 @@
 	"/_layouts/kiosk.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/kiosk.html",
 		"oF": 0
@@ -649,6 +740,7 @@
 	"/_layouts/news-archive.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/news-archive.html",
 		"oF": 0
@@ -656,6 +748,7 @@
 	"/_layouts/news-list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/news-list.html",
 		"oF": 0
@@ -663,6 +756,7 @@
 	"/_layouts/news-show.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/news-show.html",
 		"oF": 0
@@ -670,6 +764,7 @@
 	"/_layouts/public-programs-past.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/public-programs-past.html",
 		"oF": 0
@@ -677,6 +772,7 @@
 	"/_layouts/public-programs-show.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/public-programs-show.html",
 		"oF": 0
@@ -684,6 +780,7 @@
 	"/_layouts/public-programs-upcoming.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/public-programs-upcoming.html",
 		"oF": 0
@@ -691,6 +788,7 @@
 	"/_layouts/subscribe.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/subscribe.html",
 		"oF": 0
@@ -698,6 +796,7 @@
 	"/_layouts/terms-and-conditions.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/terms-and-conditions.html",
 		"oF": 0
@@ -705,6 +804,7 @@
 	"/_news/8-la-artists-and-art-world-figures-to-watch-in-2016.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/8-la-artists-and-art-world-figures-to-watch-in-2016.markdown",
 		"oF": 0
@@ -712,6 +812,7 @@
 	"/_news/a-tour-through-space-with-la-artist-glenn-kaino.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/a-tour-through-space-with-la-artist-glenn-kaino.markdown",
 		"oF": 0
@@ -719,6 +820,7 @@
 	"/_news/after-traveling-the-world-la-artist-mark-bradford-gets-a-solo-show-in-his-hometown.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/after-traveling-the-world-la-artist-mark-bradford-gets-a-solo-show-in-his-hometown.markdown",
 		"oF": 0
@@ -726,6 +828,7 @@
 	"/_news/al-lovings-rag-paper-collages-from-the-1980s-go-on-view.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/al-lovings-rag-paper-collages-from-the-1980s-go-on-view.markdown",
 		"oF": 0
@@ -733,6 +836,7 @@
 	"/_news/alex-da-corte-a-season-in-hell-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/alex-da-corte-a-season-in-hell-at-art-plus-practice.markdown",
 		"oF": 0
@@ -740,6 +844,7 @@
 	"/_news/alex-da-corte-set-pop-aflame-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/alex-da-corte-set-pop-aflame-at-art-plus-practice.markdown",
 		"oF": 0
@@ -747,6 +852,7 @@
 	"/_news/art-2030-takes-activist-stand-alongside-united-nations-in-new-york.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/art-2030-takes-activist-stand-alongside-united-nations-in-new-york.markdown",
 		"oF": 0
@@ -754,6 +860,7 @@
 	"/_news/art-exhibition-sampled-y-surveyed.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/art-exhibition-sampled-y-surveyed.markdown",
 		"oF": 0
@@ -761,6 +868,7 @@
 	"/_news/art-plus-practice-connecting-past-and-future-in-leimert-park.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/art-plus-practice-connecting-past-and-future-in-leimert-park.markdown",
 		"oF": 0
@@ -768,6 +876,7 @@
 	"/_news/art-talk-black-art-reigns.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/art-talk-black-art-reigns.markdown",
 		"oF": 0
@@ -775,6 +884,7 @@
 	"/_news/artist-and-gallerist-dale-brockman-davis-reflects-on-the-watts-uprising.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/artist-and-gallerist-dale-brockman-davis-reflects-on-the-watts-uprising.markdown",
 		"oF": 0
@@ -782,6 +892,7 @@
 	"/_news/artist-mark-bradford-is-having-his-biggest-year-yet.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/artist-mark-bradford-is-having-his-biggest-year-yet.markdown",
 		"oF": 0
@@ -789,6 +900,7 @@
 	"/_news/artrx-la-john-outterbridge-rag-man.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/artrx-la-john-outterbridge-rag-man.markdown",
 		"oF": 0
@@ -796,6 +908,7 @@
 	"/_news/best-of-los-angeles-2015.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/best-of-los-angeles-2015.markdown",
 		"oF": 0
@@ -803,6 +916,7 @@
 	"/_news/breaking-the-boundaries-maren-hassingers-evolving-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/breaking-the-boundaries-maren-hassingers-evolving-practice.markdown",
 		"oF": 0
@@ -810,6 +924,7 @@
 	"/_news/community-report-leimert-park-artist-has-designs-on-helping-young-people.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/community-report-leimert-park-artist-has-designs-on-helping-young-people.markdown",
 		"oF": 0
@@ -817,6 +932,7 @@
 	"/_news/community-spotlight-art-plus-practice-in-leimert-park.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/community-spotlight-art-plus-practice-in-leimert-park.markdown",
 		"oF": 0
@@ -824,6 +940,7 @@
 	"/_news/critics-guide-crystal-balls-red-light-spectacle-and-a-pop-art-nun-the-best-shows-in-los-angeles.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-guide-crystal-balls-red-light-spectacle-and-a-pop-art-nun-the-best-shows-in-los-angeles.markdown",
 		"oF": 0
@@ -831,6 +948,7 @@
 	"/_news/critics-guide-los-angeles.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-guide-los-angeles.markdown",
 		"oF": 0
@@ -838,6 +956,7 @@
 	"/_news/critics-pick-keith-calhoun-and-chandra-mccormick.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-pick-keith-calhoun-and-chandra-mccormick.markdown",
 		"oF": 0
@@ -845,6 +964,7 @@
 	"/_news/critics-picks-los-angeles-al-loving.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-picks-los-angeles-al-loving.markdown",
 		"oF": 0
@@ -852,6 +972,7 @@
 	"/_news/critics-picks-los-angeles-alex-da-corte.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-picks-los-angeles-alex-da-corte.markdown",
 		"oF": 0
@@ -859,6 +980,7 @@
 	"/_news/critics-picks-los-angeles-john-outterbridge.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/critics-picks-los-angeles-john-outterbridge.markdown",
 		"oF": 0
@@ -866,6 +988,7 @@
 	"/_news/datebook-rosamund-felsens-last-show-surreal-installations-inspired-by-rimbaud-capturing-brazils-modern-architecture.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/datebook-rosamund-felsens-last-show-surreal-installations-inspired-by-rimbaud-capturing-brazils-modern-architecture.markdown",
 		"oF": 0
@@ -873,6 +996,7 @@
 	"/_news/designer-detritus-artist-alex-da-corte-makes-the-everyday-extraordinary.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/designer-detritus-artist-alex-da-corte-makes-the-everyday-extraordinary.markdown",
 		"oF": 0
@@ -880,6 +1004,7 @@
 	"/_news/eso-won-books.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/eso-won-books.markdown",
 		"oF": 0
@@ -887,6 +1012,7 @@
 	"/_news/getty-research-institute-launches-african-american-art-history-initiative-acquires-betye-saars-archive.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/getty-research-institute-launches-african-american-art-history-initiative-acquires-betye-saars-archive.markdown",
 		"oF": 0
@@ -894,6 +1020,7 @@
 	"/_news/how-senga-nengudis-performance-objects-stretched-sculpture-into-new-forms-and-how-shes-still-pressing-the-limits-today.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/how-senga-nengudis-performance-objects-stretched-sculpture-into-new-forms-and-how-shes-still-pressing-the-limits-today.markdown",
 		"oF": 0
@@ -901,6 +1028,7 @@
 	"/_news/i-believe-deeply-that-the-best-kind-of-art-is-public-an-interview-with-senga-nengudi.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/i-believe-deeply-that-the-best-kind-of-art-is-public-an-interview-with-senga-nengudi.markdown",
 		"oF": 0
@@ -908,6 +1036,7 @@
 	"/_news/last-chance-john-outterbridge-assemblages-of-dreadlocks-twigs-an-american-flag-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/last-chance-john-outterbridge-assemblages-of-dreadlocks-twigs-an-american-flag-at-art-plus-practice.markdown",
 		"oF": 0
@@ -915,6 +1044,7 @@
 	"/_news/letting-go-of-the-distinction-between-figuration-and-abstraction.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/letting-go-of-the-distinction-between-figuration-and-abstraction.markdown",
 		"oF": 0
@@ -922,6 +1052,7 @@
 	"/_news/maren-hassinger-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/maren-hassinger-at-art-plus-practice.markdown",
 		"oF": 0
@@ -929,6 +1060,7 @@
 	"/_news/maren-hassingers-poetic-gestures-for-dealing-with-the-painful-past-and-present.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/maren-hassingers-poetic-gestures-for-dealing-with-the-painful-past-and-present.markdown",
 		"oF": 0
@@ -936,6 +1068,7 @@
 	"/_news/mark-bradford-brings-dexterity-of-de-kooning-and-a-commitment-to-activism-to-2017-venice-biennale.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/mark-bradford-brings-dexterity-of-de-kooning-and-a-commitment-to-activism-to-2017-venice-biennale.markdown",
 		"oF": 0
@@ -943,6 +1076,7 @@
 	"/_news/mark-bradfords-art-plus-practice-is-on-a-mission-to-change-lives.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/mark-bradfords-art-plus-practice-is-on-a-mission-to-change-lives.markdown",
 		"oF": 0
@@ -950,6 +1084,7 @@
 	"/_news/njideka-akunyili-crosby-and-akosua-adoma-owusu-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/njideka-akunyili-crosby-and-akosua-adoma-owusu-at-art-plus-practice.markdown",
 		"oF": 0
@@ -957,6 +1092,7 @@
 	"/_news/njideka-akunyili-crosbys-intimate-tableaus-echo-her-transnational-world.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/njideka-akunyili-crosbys-intimate-tableaus-echo-her-transnational-world.markdown",
 		"oF": 0
@@ -964,6 +1100,7 @@
 	"/_news/preview-al-loving.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/preview-al-loving.markdown",
 		"oF": 0
@@ -971,6 +1108,7 @@
 	"/_news/review-in-head-back-and-high-senga-nengudi-at-art-plus-practice-two-standout-works.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/review-in-head-back-and-high-senga-nengudi-at-art-plus-practice-two-standout-works.markdown",
 		"oF": 0
@@ -978,6 +1116,7 @@
 	"/_news/review-john-outterbridge.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/review-john-outterbridge.markdown",
 		"oF": 0
@@ -985,6 +1124,7 @@
 	"/_news/ruben-ochoa-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/ruben-ochoa-at-art-plus-practice.markdown",
 		"oF": 0
@@ -992,6 +1132,7 @@
 	"/_news/ruben-ochoa.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/ruben-ochoa.markdown",
 		"oF": 0
@@ -999,6 +1140,7 @@
 	"/_news/slavery-the-prison-industrial-complex-at-art-plus-practice.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/slavery-the-prison-industrial-complex-at-art-plus-practice.markdown",
 		"oF": 0
@@ -1006,6 +1148,7 @@
 	"/_news/spiral-play-loving-in-the-80s-alvin-d-loving-at-art-plus-practice-in-la.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/spiral-play-loving-in-the-80s-alvin-d-loving-at-art-plus-practice-in-la.markdown",
 		"oF": 0
@@ -1013,6 +1156,7 @@
 	"/_news/stark-photos-of-a-louisiana-prison-that-was-once-a-slave-plantation.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/stark-photos-of-a-louisiana-prison-that-was-once-a-slave-plantation.markdown",
 		"oF": 0
@@ -1020,6 +1164,7 @@
 	"/_news/the-la-exhibition-attempting-to-re-humanize-us-prisons.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/the-la-exhibition-attempting-to-re-humanize-us-prisons.markdown",
 		"oF": 0
@@ -1027,6 +1172,7 @@
 	"/_news/the-trio-creating-an-la-mecca-for-celebrating-artists-of-color.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/the-trio-creating-an-la-mecca-for-celebrating-artists-of-color.markdown",
 		"oF": 0
@@ -1034,6 +1180,7 @@
 	"/_news/three-artists-who-think-outside-the-box.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/three-artists-who-think-outside-the-box.markdown",
 		"oF": 0
@@ -1041,6 +1188,7 @@
 	"/_news/what-else-can-art-do-the-many-layers-of-mark-bradfords-work.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_news/what-else-can-art-do-the-many-layers-of-mark-bradfords-work.markdown",
 		"oF": 0
@@ -1048,6 +1196,7 @@
 	"/_plugins/1_exhibition-page-generator.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/1_exhibition-page-generator.rb",
 		"oF": 0
@@ -1055,6 +1204,7 @@
 	"/_plugins/2_exhibition-grouping.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/2_exhibition-grouping.rb",
 		"oF": 0
@@ -1062,6 +1212,7 @@
 	"/_plugins/email.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/email.rb",
 		"oF": 0
@@ -1069,6 +1220,7 @@
 	"/_plugins/exhibition-pagination.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/exhibition-pagination.rb",
 		"oF": 0
@@ -1076,6 +1228,7 @@
 	"/_plugins/news-pagination.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/news-pagination.rb",
 		"oF": 0
@@ -1083,6 +1236,7 @@
 	"/_plugins/phone.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/phone.rb",
 		"oF": 0
@@ -1090,6 +1244,7 @@
 	"/_plugins/public-programs-pagination.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_plugins/public-programs-pagination.rb",
 		"oF": 0
@@ -1097,6 +1252,7 @@
 	"/_public_programs/archive-in-film-and-video-renata-cherlise-and-russell-hamilton-with-darol-olu-kae.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/archive-in-film-and-video-renata-cherlise-and-russell-hamilton-with-darol-olu-kae.markdown",
 		"oF": 0
@@ -1104,6 +1260,7 @@
 	"/_public_programs/artist-talk-april-bey.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-april-bey.markdown",
 		"oF": 0
@@ -1111,6 +1268,7 @@
 	"/_public_programs/artist-talk-cauleen-smith.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-cauleen-smith.markdown",
 		"oF": 0
@@ -1118,6 +1276,7 @@
 	"/_public_programs/artist-talk-ej-hill.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-ej-hill.markdown",
 		"oF": 0
@@ -1125,6 +1284,7 @@
 	"/_public_programs/artist-talk-jennie-c-jones.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-jennie-c-jones.markdown",
 		"oF": 0
@@ -1132,6 +1292,7 @@
 	"/_public_programs/artist-talk-kenyatta-ac-hinkel-navigating-aintness-exploring-the-kentifrica-archive.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-kenyatta-ac-hinkel-navigating-aintness-exploring-the-kentifrica-archive.markdown",
 		"oF": 0
@@ -1139,6 +1300,7 @@
 	"/_public_programs/artist-talk-kevin-beasley.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-kevin-beasley.markdown",
 		"oF": 0
@@ -1146,6 +1308,7 @@
 	"/_public_programs/artist-talk-may-sun-with-juri-koll.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-may-sun-with-juri-koll.markdown",
 		"oF": 0
@@ -1153,6 +1316,7 @@
 	"/_public_programs/artist-talk-patrick-martinez.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-patrick-martinez.markdown",
 		"oF": 0
@@ -1160,6 +1324,7 @@
 	"/_public_programs/artist-talk-rafa-esparza.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-rafa-esparza.markdown",
 		"oF": 0
@@ -1167,6 +1332,7 @@
 	"/_public_programs/artist-talk-rodney-mcmillian.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-rodney-mcmillian.markdown",
 		"oF": 0
@@ -1174,6 +1340,7 @@
 	"/_public_programs/artist-talk-texas-isaiah.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-texas-isaiah.markdown",
 		"oF": 0
@@ -1181,6 +1348,7 @@
 	"/_public_programs/artist-talk-ulysses-jenkins.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/artist-talk-ulysses-jenkins.markdown",
 		"oF": 0
@@ -1188,6 +1356,7 @@
 	"/_public_programs/author-talk-and-book-signing-kellie-jones-south-of-pico.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/author-talk-and-book-signing-kellie-jones-south-of-pico.markdown",
 		"oF": 0
@@ -1195,6 +1364,7 @@
 	"/_public_programs/dancing-through-prison-walls-a-conversation-with-suchi-branfman-and-d-sabela-grimes.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/dancing-through-prison-walls-a-conversation-with-suchi-branfman-and-d-sabela-grimes.markdown",
 		"oF": 0
@@ -1202,6 +1372,7 @@
 	"/_public_programs/documenting-los-angeles-a-conversation-with-alima-lee-and-kya-lou.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/documenting-los-angeles-a-conversation-with-alima-lee-and-kya-lou.markdown",
 		"oF": 0
@@ -1209,6 +1380,7 @@
 	"/_public_programs/exhibition-walkthrough-head-back-and-high.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/exhibition-walkthrough-head-back-and-high.markdown",
 		"oF": 0
@@ -1216,6 +1388,7 @@
 	"/_public_programs/exhibition-walkthrough-sampled-y-surveyed.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/exhibition-walkthrough-sampled-y-surveyed.markdown",
 		"oF": 0
@@ -1223,6 +1396,7 @@
 	"/_public_programs/exhibition-walkthrough-the-spirit-of-things.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/exhibition-walkthrough-the-spirit-of-things.markdown",
 		"oF": 0
@@ -1230,6 +1404,7 @@
 	"/_public_programs/exhibition-walkthrough-with-ben-caldwell-and-jheanelle-brown.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/exhibition-walkthrough-with-ben-caldwell-and-jheanelle-brown.markdown",
 		"oF": 0
@@ -1237,6 +1412,7 @@
 	"/_public_programs/in-conversation-alile-sharon-larkin-cauleen-smith-and-dana-washington-with-jheanelle-brown.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-alile-sharon-larkin-cauleen-smith-and-dana-washington-with-jheanelle-brown.markdown",
 		"oF": 0
@@ -1244,6 +1420,7 @@
 	"/_public_programs/in-conversation-analia-saban-and-selene-preciado.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-analia-saban-and-selene-preciado.markdown",
 		"oF": 0
@@ -1251,6 +1428,7 @@
 	"/_public_programs/in-conversation-barbara-mccullough-and-thomas-j-lax.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-barbara-mccullough-and-thomas-j-lax.markdown",
 		"oF": 0
@@ -1258,6 +1436,7 @@
 	"/_public_programs/in-conversation-dale-brockman-davis-and-alonzo-davis-with-naima-j-keith.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-dale-brockman-davis-and-alonzo-davis-with-naima-j-keith.markdown",
 		"oF": 0
@@ -1265,6 +1444,7 @@
 	"/_public_programs/in-conversation-erin-christovale-and-sune-woods.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-erin-christovale-and-sune-woods.markdown",
 		"oF": 0
@@ -1272,6 +1452,7 @@
 	"/_public_programs/in-conversation-fred-moten-and-pat-thomas.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-fred-moten-and-pat-thomas.markdown",
 		"oF": 0
@@ -1279,6 +1460,7 @@
 	"/_public_programs/in-conversation-gabrielle-civil-and-amanda-hunt.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-gabrielle-civil-and-amanda-hunt.markdown",
 		"oF": 0
@@ -1286,6 +1468,7 @@
 	"/_public_programs/in-conversation-leonardo-drew-and-christopher-bedford.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-leonardo-drew-and-christopher-bedford.markdown",
 		"oF": 0
@@ -1293,6 +1476,7 @@
 	"/_public_programs/in-conversation-njideka-akunyili-crosby-and-akosua-adoma-owusu-with-jamillah-james.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-njideka-akunyili-crosby-and-akosua-adoma-owusu-with-jamillah-james.markdown",
 		"oF": 0
@@ -1300,6 +1484,7 @@
 	"/_public_programs/in-conversation-sandy-rodriguez-and-isabelle-lutterodt.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-sandy-rodriguez-and-isabelle-lutterodt.markdown",
 		"oF": 0
@@ -1307,6 +1492,7 @@
 	"/_public_programs/in-conversation-taisha-paggett-and-ashley-hunt.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-taisha-paggett-and-ashley-hunt.markdown",
 		"oF": 0
@@ -1314,6 +1500,7 @@
 	"/_public_programs/in-conversation-the-ease-of-fiction.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/in-conversation-the-ease-of-fiction.markdown",
 		"oF": 0
@@ -1321,6 +1508,7 @@
 	"/_public_programs/offsite-program-at-caam-points-of-access-museums-in-conversation.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/offsite-program-at-caam-points-of-access-museums-in-conversation.markdown",
 		"oF": 0
@@ -1328,6 +1516,7 @@
 	"/_public_programs/offsite-program-points-of-access-the-fundamentals-of-art-collecting.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/offsite-program-points-of-access-the-fundamentals-of-art-collecting.markdown",
 		"oF": 0
@@ -1335,6 +1524,7 @@
 	"/_public_programs/pilar-tompkins-rivas-intersectionality-transnationalism-and-conceptualism-the-matrices-of-latinx-art.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/pilar-tompkins-rivas-intersectionality-transnationalism-and-conceptualism-the-matrices-of-latinx-art.markdown",
 		"oF": 0
@@ -1342,6 +1532,7 @@
 	"/_public_programs/points-of-access-artists-in-conversation.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/points-of-access-artists-in-conversation.markdown",
 		"oF": 0
@@ -1349,6 +1540,7 @@
 	"/_public_programs/points-of-access-curators-in-conversation.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/points-of-access-curators-in-conversation.markdown",
 		"oF": 0
@@ -1356,6 +1548,7 @@
 	"/_public_programs/reflecting-on-angola-with-keith-calhoun-chandra-mccormick-gary-tyler-and-dhyandra-lawson.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/reflecting-on-angola-with-keith-calhoun-chandra-mccormick-gary-tyler-and-dhyandra-lawson.markdown",
 		"oF": 0
@@ -1363,6 +1556,7 @@
 	"/_public_programs/shinique-smith-shirt-off-my-back-clothing-fabric-and-belonging.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_public_programs/shinique-smith-shirt-off-my-back-clothing-fabric-and-belonging.markdown",
 		"oF": 0
@@ -4140,6 +4334,7 @@
 	"/_uploads/air_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/air_pressrelease.pdf",
 		"oF": 0
@@ -4147,6 +4342,7 @@
 	"/_uploads/alexdacorte_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/alexdacorte_pressrelease.pdf",
 		"oF": 0
@@ -4176,6 +4372,7 @@
 	"/_uploads/ASTSU_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/ASTSU_pressrelease.pdf",
 		"oF": 0
@@ -4293,6 +4490,7 @@
 	"/_uploads/Education_Resources.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Education_Resources.pdf",
 		"oF": 0
@@ -4300,6 +4498,7 @@
 	"/_uploads/eversley_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/eversley_pressrelease.pdf",
 		"oF": 0
@@ -7299,6 +7498,7 @@
 	"/_uploads/Final_Ochoa_Press Release.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Final_Ochoa_Press Release.pdf",
 		"oF": 0
@@ -7526,6 +7726,7 @@
 	"/_uploads/gaines_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/gaines_pressrelease.pdf",
 		"oF": 0
@@ -7555,6 +7756,7 @@
 	"/_uploads/hassinger_press_release_v4.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/hassinger_press_release_v4.pdf",
 		"oF": 0
@@ -7936,6 +8138,7 @@
 	"/_uploads/keith_chandra_pressrelease_v4.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/keith_chandra_pressrelease_v4.pdf",
 		"oF": 0
@@ -7943,6 +8146,7 @@
 	"/_uploads/keith_chandra_pressrelease_v5.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/keith_chandra_pressrelease_v5.pdf",
 		"oF": 0
@@ -7961,6 +8165,7 @@
 	"/_uploads/loving_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/loving_pressrelease.pdf",
 		"oF": 0
@@ -7968,6 +8173,7 @@
 	"/_uploads/nengudi_press_release_v4-979072.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/nengudi_press_release_v4-979072.pdf",
 		"oF": 0
@@ -7975,6 +8181,7 @@
 	"/_uploads/nengudi_press_release_v4.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/nengudi_press_release_v4.pdf",
 		"oF": 0
@@ -9115,6 +9322,7 @@
 	"/_uploads/njideka_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/njideka_pressrelease.pdf",
 		"oF": 0
@@ -9276,6 +9484,7 @@
 	"/_uploads/Ochoa_Press Release_v2.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Ochoa_Press Release_v2.pdf",
 		"oF": 0
@@ -9283,6 +9492,7 @@
 	"/_uploads/outterbridge_pressrelease.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/outterbridge_pressrelease.pdf",
 		"oF": 0
@@ -12051,6 +12261,7 @@
 	"/_uploads/TIROOT_press release_v3.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/TIROOT_press release_v3.pdf",
 		"oF": 0
@@ -12289,6 +12500,7 @@
 	"/_uploads/Year Four_web_version_v2.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/Year Four_web_version_v2.pdf",
 		"oF": 0
@@ -12307,6 +12519,7 @@
 	"/_uploads/year_four_web.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/year_four_web.pdf",
 		"oF": 0
@@ -12314,6 +12527,7 @@
 	"/_uploads/year_one_catalogue.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/year_one_catalogue.pdf",
 		"oF": 0
@@ -12321,6 +12535,7 @@
 	"/_uploads/year_three_catalog.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/year_three_catalog.pdf",
 		"oF": 0
@@ -12339,6 +12554,7 @@
 	"/_uploads/year_two_catalogue.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/year_two_catalogue.pdf",
 		"oF": 0
@@ -12368,6 +12584,7 @@
 	"/_uploads/YR5_body_v10_web.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/_uploads/YR5_body_v10_web.pdf",
 		"oF": 0
@@ -12375,6 +12592,7 @@
 	"/about.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/about.markdown",
 		"oF": 0
@@ -12382,6 +12600,7 @@
 	"/about/annual-catalogues.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/about/annual-catalogues.markdown",
 		"oF": 0
@@ -12389,6 +12608,7 @@
 	"/about/board-and-staff.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/about/board-and-staff.markdown",
 		"oF": 0
@@ -12464,6 +12684,7 @@
 	"/assets/fonts/fontello/demo.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/demo.html",
 		"oF": 0
@@ -12471,6 +12692,7 @@
 	"/assets/fonts/fontello/font/ap_fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/font/ap_fontello.eot",
 		"oF": 0
@@ -12488,6 +12710,7 @@
 	"/assets/fonts/fontello/font/ap_fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/font/ap_fontello.ttf",
 		"oF": 0
@@ -12495,6 +12718,7 @@
 	"/assets/fonts/fontello/font/ap_fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/font/ap_fontello.woff",
 		"oF": 0
@@ -12502,6 +12726,7 @@
 	"/assets/fonts/fontello/font/ap_fontello.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/font/ap_fontello.woff2",
 		"oF": 0
@@ -12509,6 +12734,7 @@
 	"/assets/fonts/fontello/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/LICENSE.txt",
 		"oF": 0
@@ -12516,6 +12742,7 @@
 	"/assets/fonts/fontello/README.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/fontello/README.txt",
 		"oF": 0
@@ -12523,6 +12750,7 @@
 	"/assets/fonts/Polaris-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Bold.eot",
 		"oF": 0
@@ -12530,6 +12758,7 @@
 	"/assets/fonts/Polaris-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Bold.woff",
 		"oF": 0
@@ -12537,6 +12766,7 @@
 	"/assets/fonts/Polaris-BoldItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-BoldItalic.eot",
 		"oF": 0
@@ -12544,6 +12774,7 @@
 	"/assets/fonts/Polaris-BoldItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-BoldItalic.woff",
 		"oF": 0
@@ -12551,6 +12782,7 @@
 	"/assets/fonts/Polaris-Book.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Book.eot",
 		"oF": 0
@@ -12558,6 +12790,7 @@
 	"/assets/fonts/Polaris-Book.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Book.woff",
 		"oF": 0
@@ -12565,6 +12798,7 @@
 	"/assets/fonts/Polaris-BookItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-BookItalic.eot",
 		"oF": 0
@@ -12572,6 +12806,7 @@
 	"/assets/fonts/Polaris-BookItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-BookItalic.woff",
 		"oF": 0
@@ -12579,6 +12814,7 @@
 	"/assets/fonts/Polaris-Heavy.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Heavy.eot",
 		"oF": 0
@@ -12586,6 +12822,7 @@
 	"/assets/fonts/Polaris-Heavy.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Heavy.woff",
 		"oF": 0
@@ -12593,6 +12830,7 @@
 	"/assets/fonts/Polaris-HeavyItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-HeavyItalic.eot",
 		"oF": 0
@@ -12600,6 +12838,7 @@
 	"/assets/fonts/Polaris-HeavyItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-HeavyItalic.woff",
 		"oF": 0
@@ -12607,6 +12846,7 @@
 	"/assets/fonts/Polaris-Light.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Light.eot",
 		"oF": 0
@@ -12614,6 +12854,7 @@
 	"/assets/fonts/Polaris-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Light.woff",
 		"oF": 0
@@ -12621,6 +12862,7 @@
 	"/assets/fonts/Polaris-LightItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-LightItalic.eot",
 		"oF": 0
@@ -12628,6 +12870,7 @@
 	"/assets/fonts/Polaris-LightItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-LightItalic.woff",
 		"oF": 0
@@ -12635,6 +12878,7 @@
 	"/assets/fonts/Polaris-Medium.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Medium.eot",
 		"oF": 0
@@ -12642,6 +12886,7 @@
 	"/assets/fonts/Polaris-Medium.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-Medium.woff",
 		"oF": 0
@@ -12649,6 +12894,7 @@
 	"/assets/fonts/Polaris-MediumItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-MediumItalic.eot",
 		"oF": 0
@@ -12656,11 +12902,13 @@
 	"/assets/fonts/Polaris-MediumItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/fonts/Polaris-MediumItalic.woff",
 		"oF": 0
 		},
 	"/assets/javascripts/donate.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12671,6 +12919,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/global.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12681,6 +12930,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/home.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12691,6 +12941,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/tab-preference.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12701,6 +12952,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/bootstrap/bootstrap.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12711,6 +12963,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/bootstrap/carousel.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12721,6 +12974,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/bootstrap/collapse.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12731,6 +12985,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/bootstrap/scrollspy.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12741,6 +12996,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/bootstrap/tab.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12751,6 +13007,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/imgix/imgix.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12761,6 +13018,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/jquery/inview.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12771,6 +13029,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/jquery/jquery.fittext.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12781,6 +13040,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/jquery/jquery.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12791,6 +13051,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/jquery/jquery.waypoints.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12801,6 +13062,7 @@
 		"tS": 0
 		},
 	"/assets/javascripts/vendor/parsley/parsley.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -12849,6 +13111,7 @@
 	"/donate.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/donate.markdown",
 		"oF": 0
@@ -12856,6 +13119,7 @@
 	"/education.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/education.markdown",
 		"oF": 0
@@ -12863,6 +13127,7 @@
 	"/exhibitions/index.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exhibitions/index.markdown",
 		"oF": 0
@@ -12870,6 +13135,7 @@
 	"/exhibitions/on-view.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exhibitions/on-view.markdown",
 		"oF": 0
@@ -12877,6 +13143,7 @@
 	"/exhibitions/past.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exhibitions/past.markdown",
 		"oF": 0
@@ -12884,6 +13151,7 @@
 	"/exhibitions/upcoming.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/exhibitions/upcoming.markdown",
 		"oF": 0
@@ -12924,6 +13192,7 @@
 	"/foster-youth-services/about.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/foster-youth-services/about.markdown",
 		"oF": 0
@@ -12931,6 +13200,7 @@
 	"/foster-youth-services/my-first-place.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/foster-youth-services/my-first-place.markdown",
 		"oF": 0
@@ -12938,6 +13208,7 @@
 	"/foster-youth-services/my-first-place/my-first-place-education-and-employment.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/foster-youth-services/my-first-place/my-first-place-education-and-employment.markdown",
 		"oF": 0
@@ -12945,6 +13216,7 @@
 	"/foster-youth-services/my-first-place/my-first-place-housing.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/foster-youth-services/my-first-place/my-first-place-housing.markdown",
 		"oF": 0
@@ -12952,6 +13224,7 @@
 	"/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Gemfile",
 		"oF": 0
@@ -12959,6 +13232,7 @@
 	"/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Gemfile.lock",
 		"oF": 0
@@ -12966,6 +13240,7 @@
 	"/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/humans.txt",
 		"oF": 0
@@ -12973,6 +13248,7 @@
 	"/index.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.markdown",
 		"oF": 0
@@ -12980,6 +13256,7 @@
 	"/news/archive.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/news/archive.markdown",
 		"oF": 0
@@ -12987,6 +13264,7 @@
 	"/news/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/news/index.html",
 		"oF": 0
@@ -12994,6 +13272,7 @@
 	"/news/recent.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/news/recent.markdown",
 		"oF": 0
@@ -13001,6 +13280,7 @@
 	"/public-programs/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public-programs/index.html",
 		"oF": 0
@@ -13008,6 +13288,7 @@
 	"/public-programs/past.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public-programs/past.html",
 		"oF": 0
@@ -13015,6 +13296,7 @@
 	"/public-programs/upcoming.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public-programs/upcoming.html",
 		"oF": 0
@@ -13022,6 +13304,7 @@
 	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/robots.txt",
 		"oF": 0
@@ -13029,6 +13312,7 @@
 	"/subscribe.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/subscribe.markdown",
 		"oF": 0
@@ -13036,6 +13320,7 @@
 	"/terms-and-conditions.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/terms-and-conditions.markdown",
 		"oF": 0
@@ -13047,7 +13332,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 573036453.71388102,
-	"displayValue": "artandpractice.org",
+	"displayValue": "artandpractice.test",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 0
@@ -13135,6 +13420,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -13154,6 +13445,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -13204,6 +13525,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -13237,10 +13561,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -14189,6 +14519,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -14851,6 +15185,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -14872,6 +15207,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -14894,7 +15230,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -14933,6 +15270,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -14942,7 +15280,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -14963,7 +15302,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -14992,7 +15332,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -15080,16 +15421,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -15108,7 +15453,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -15131,6 +15476,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -15156,10 +15505,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -15168,13 +15513,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -15186,6 +15531,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -15208,13 +15557,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -15223,10 +15572,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -15250,6 +15595,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -15284,6 +15633,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -15293,6 +15646,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -15320,15 +15677,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": "/_site"
 	},
