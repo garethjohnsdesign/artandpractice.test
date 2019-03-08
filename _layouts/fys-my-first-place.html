@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{% include page-subheader.html title=page.heading content=page.content %}
+
+<div class="row about content">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/my-first-place-nav.html %}
+  </div>
+  <div class="col-md-8 col-lg-6">
+    
+    <div class="grouping navigation-section" id="about" data-waypoint-offset="25%">
+      {% include base/grouping-heading.html text="About First Place for Youth" %}
+      <div class="image-container">
+        {% include base/image.html class="image__image" src=page.about.image.image %}
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="text">
+        {{ page.about.text | markdownify }}
+      </div>
+      <a href="{{site['Foster Youth Collaborator'].website_about_link}}" target="blank">
+        <button class="btn btn-primary">Read More <i class="icon-right-dir"></i></button>
+      </a>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="grouping navigation-section" id="my-first-place">
+      {% include base/grouping-heading.html text="my first place" %}
+      <div class="row">
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class="image-container">
+            {% include base/image.html class="image__image" src=page.my_first_place.left_image.image %}
+          </div>
+          <div class='spacer-lg'></div>
+          <div class="text">
+            {{ page.my_first_place.left_text | markdownify }}
+          </div>
+          <a href="/foster-youth-services/my-first-place/education-and-employment/">
+            <button class="btn btn-primary">Read More <i class="icon-right-dir"></i></button>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class="image-container">
+            {% include base/image.html class="image__image" src=page.my_first_place.right_image.image %}
+          </div>
+          <div class='spacer-lg'></div>
+          <div class="text">
+            {{ page.my_first_place.right_text | markdownify }}
+          </div>
+          <a href="/foster-youth-services/my-first-place/housing/">
+            <button class="btn btn-primary">Read More <i class="icon-right-dir"></i></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+    
+    <div class="grouping navigation-section" id="support">
+      {% include base/grouping-heading.html text="Support First Place" %}
+      <div class="image-container">
+        {% include base/image.html class="image__image" src=page.support.image.image %}
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="text">
+        {{ page.support.text | markdownify }}
+      </div>
+      <a href="{{site['Foster Youth Collaborator'].website_donate_link}}" target="blank">
+        <button class="btn btn-primary">Donate <i class="icon-right-dir"></i></button>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row bottom-nav">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/my-first-place-nav.html hidden=true %}
+  </div>
+</div>

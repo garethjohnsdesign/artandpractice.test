@@ -1,0 +1,21 @@
+{% assign through = include.paginator.page | times: include.paginator.per_page %}
+{% assign from = through | minus: include.paginator.per_page | plus: 1 %}
+{% if through > include.paginator.total_items %}
+  {% assign through = include.paginator.total_items %}
+{% endif %}
+
+{% if from == 1 and through != include.paginator.total_items %}
+  <div class="paginator">
+    <p class="paginator__pager-status">Showing {{from}} - {{through}} of {{include.paginator.total_items}}</p>
+
+    <div class="paginator__pager-buttons">
+      {% if include.paginator.previous_page %}
+        <a href="{{include.paginator.previous_page_path}}"><button class="btn btn-primary">Previous</button></a>
+      {% endif %}
+
+      {% if include.paginator.next_page and through != include.paginator.total_items %}
+        <a href="{{include.paginator.next_page_path}}"><button class="btn btn-primary">Next</button></a>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

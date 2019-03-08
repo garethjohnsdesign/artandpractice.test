@@ -1,0 +1,11 @@
+<div class="row exhibition-abstract exhibition-abstract__abbreviated">
+  <div class="col-xs-12">
+    <a href="{{exhibition.url}}">
+      {% if page.subtitle %}
+        <h3 class="exhibition__subheading">{{ exhibition.subtitle }}</h3>
+      {% endif %}
+      <h2 class="exhibition__heading">{{ exhibition.title }}</h2>
+    </a>
+    <p class="exhibition__showing-date-range">{{ exhibition.start_date | date: '%B %-d, %Y' }} - {{ exhibition.end_date | date: '%B %-d, %Y' }}</p>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+---
+layout: default
+section: news
+---
+
+{% include page-subheader.html title=page.title %}
+
+<div class="row content">
+  <div class="col-md-4 col-lg-3">
+    {% include news/nav.html active=page.collection_name %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    <div class="container">
+      <div class="row hidden-sm-down">
+        {% assign news_grouped_by_year = site.news | group_by: 'published_year' | sort: 'published_year' %}
+
+        {% if news_grouped_by_year.size > 1 %}
+          {% include tabs.html grouping=news_grouped_by_year grouping-prefix='news-year' %}
+          <div class="section-divider section-divider__sm"></div>
+        {% endif %}
+      </div>
+
+      <div class="row hidden-md-down">
+        <div class="tab-content">
+          {% for news_year in news_grouped_by_year %}
+            {% assign articles = news_year.items | sort: 'published_date' | reverse %}
+            <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="news-year-{{news_year.name}}" role="tabpanel">
+              {% for article in articles %}
+                {% include news/abstract.html article=article %}
+                {% if forloop.length > 1 and forloop.last == false %}
+                  <div class="section-divider"></div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="row hidden-lg-up">
+        {% assign collection = site.news | sort: 'published_date' | reverse %}
+        {% for article in collection %}
+          {% include news/abstract-abbreviated-mobile.html article=article %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include news/nav.html active=page.collection_name hidden=true %}
+  </div>
+</div>

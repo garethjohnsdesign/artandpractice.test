@@ -1,0 +1,20 @@
+.nav.nav-tabs {
+  border-bottom: 0;
+
+  .nav-item {
+    margin-right: $base-margin-xl;
+
+    text-align: left;
+  }
+
+  .nav-link {
+    padding-left: 1px;
+    padding-bottom: 1px;
+
+    border: 0;
+
+    &.active {
+      @include active-link();
+    }
+  }
+}

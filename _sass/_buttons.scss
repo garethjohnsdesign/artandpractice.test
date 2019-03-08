@@ -1,0 +1,42 @@
+.btn-primary {
+  font-size: 14px;
+
+  padding: 4px 7px;
+
+  text-transform: uppercase;
+
+  color: $brand-white;
+  border: 2px solid $brand-blue;
+  border-radius: 3px;
+  background-color: $brand-blue;
+
+  &:active, &:focus {
+    color: $brand-white;
+    border: 2px solid $brand-blue;
+    border-radius: 3px;
+    background-color: $brand-blue;
+    outline: none;
+  }
+
+  &:hover {
+    color: $brand-copy;
+    border: 2px solid $brand-blue;
+    background-color: $brand-white;
+    outline: none;
+  }
+
+  &:active:hover, &:active:focus {
+    color: $brand-white;
+    background-color: $brand-blue;
+    outline: none;
+  }
+}
+
+.btn__pull-right {
+  float: right;
+}
+
+.btn-primary i {
+  margin-right: -6px;
+  margin-left: $base-margin-lg;
+}

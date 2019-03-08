@@ -1,0 +1,119 @@
+<div class="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <p class="sub-heading">Art + Practice</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-12 col-lg-8">
+              <div class="container">
+                <div class="row">
+                  <div class="footer__address col-xs-6">
+                    <p class="footer-address__title">{{site['Exhibition Space'].title}}</p>
+                    <a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">
+                      <p class="footer-address__address">{{site['Exhibition Space'].street}}<br>
+                      {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}</p>
+                    </a>
+                    <p class="footer-address__hours">{{site['Exhibition Space'].hours}}</p>
+                  </div>
+                  
+                  <div class="footer__address col-xs-6">
+                    <p class="footer-address__title">{{site['Public Programs Space'].title}}</p>
+                    <a href="https://www.google.com/maps?q={{site['Public Programs Space'].street}} {{site['Public Programs Space'].city}} {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}" target="blank">
+                      <p class="footer-address__address">{{site['Public Programs Space'].street}}<br>
+                      {{site['Public Programs Space'].city}}, {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}</p>
+                    </a>
+                    <p class="footer-address__hours">{{site['Public Programs Space'].hours}}</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="footer-contact__section col-xs-6">
+                    <p class="footer-address__title">{{site['Admin Office'].title}}</p>
+                    <p>For general inquiries:</p>
+                    <p class="email">{{site['Admin Office'].email | email}}</p></a>
+                    <p class="phone">{{site['Admin Office'].phone | phone}}</p></a>
+                  </div>
+                  <div class="footer-contact__section col-xs-6">
+                    <div class="social-links">
+                      <a href="{{site.social.facebook}}"><i class="social-links__link icon-facebook-squared"></i></a>
+                      <a href="{{site.social.instagram}}"><i class="social-links__link icon-instagram"></i></a>
+                      <a href="{{site.social.twitter}}"><i class="social-links__link last icon-twitter-squared"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-4">
+              <div class="container">
+                <div class="row">
+                  <div class="footer__address col-xs-12">
+                    <p class="footer-address__title">{{site.footer_donations_disclaimer | markdownify}}</p>
+                    <a href="/donate" class="btn btn-primary btn-donate submit">
+                      <p>Donate</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-12 col-lg-8">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <p class="copyright desktop">&copy; {{ site.time | date: '%Y' }} {{site.title}}</p>
+                  </div>
+                  <div class="col-xs-6">
+                    <p class="copyright desktop"><a class="terms-and-conditions-link medium-bold" href="/terms-and-conditions">Terms + Conditions</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <p class="sub-heading">{{site['footer']['Subscribe to Newsletter'].title}}</p>
+        <form class="subscribe-form" action="https://artandpractice.us8.list-manage.com/subscribe/post-json?u=342c20223e4234403a9a6554f&id=c092af9548&c=?" method="get">
+          <div class="container">
+            <div class="row subscribe-form__notification subscribe-form__notification-success">
+              <div class="alert alert-info" role="alert"></div>
+            </div>
+            <div class="row subscribe-form__notification subscribe-form__notification-danger">
+              <div class="alert alert-danger" role="alert"></div>
+            </div>
+            <div class="row">
+              <fieldset class="form-group col-lg-6">
+                <input name="MERGE1" type="text" class="form-control" id="subscribe-form__first-name" placeholder="First Name">
+              </fieldset>
+              <fieldset class="form-group col-lg-6">
+                <input name="MERGE2" type="text" class="form-control" id="subscribe-form__last-name" placeholder="Last Name">
+              </fieldset>
+            </div>
+            <div class="row">
+              <fieldset class="form-group col-lg-6">
+                <input autocapitalize="off" autocorrect="off" name="MERGE0" type="email" class="form-control" id="subscribe-form__email" placeholder="Email">
+              </fieldset>
+              <fieldset class="form-group col-lg-6">
+                <input name="MERGE3" type="text" pattern="\d*" maxlength="5" class="form-control" id="subscribe-form__zip-code" placeholder="Zip Code">
+              </fieldset>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-lg-offset-6">
+                <input type="submit" class="btn btn-primary" value="SUBSCRIBE">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <p class="copyright mobile">&copy; {{ site.time | date: '%Y' }} {{site.title}}</p>
+      </div>
+      <div class="col-xs-6">
+        <a class="terms-and-conditions-link medium-bold" href="/terms-and-conditions"><p class="copyright mobile">Terms + conditions</p></a>
+      </div>
+    </div>
+  </div>
+</div>

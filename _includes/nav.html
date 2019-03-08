@@ -1,0 +1,72 @@
+<div class="navbar-container pos-f-t hidden-md-down">
+  <div class="container">
+    <nav class="navbar">
+      <a class="navbar-brand navbar-container__logo" href="/"></a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item {% if include.active_section == 'about' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item {% if include.active_section == 'exhibitions' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/exhibitions">Exhibitions</a>
+        </li>
+        <li class="nav-item {% if include.active_section == 'public-programs' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/public-programs">Public Programs</a>
+        </li>
+        <li class="nav-item {% if include.active_section == 'fys' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/foster-youth-services">Foster Youth Services</a>
+        </li>
+        <li class="nav-item {% if include.active_section == 'education' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/education">Education</a>
+        </li>
+        <li class="nav-item {% if include.active_section == 'news' %}nav-item__active{% endif %}">
+          <a class="nav-link" href="/news">News</a>
+        </li>
+        <li class="nav-item nav-item__donate {% if include.active_section == 'donate' %}nav-item__active{% endif %}">
+          <a class="nav-link btn-donate" href="/donate">Donate</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div class="navbar-container-mobile pos-f-t hidden-lg-up">
+  <div class="navbar-container-mobile__navbar navbar navbar-static-top">
+    <a href="/">
+      <div class="navbar-container-mobile__logo">
+        <p class="logo">Art <span class="plus">+</span><br>Practice</p>
+      </div>
+    </a>
+    <button class="navbar-container-mobile__navbar-toggler navbar-toggler {% if include.hide_menu == true %}hidden-xl-down{% endif %}" type="button" onClick="toggleElementVisibilityById('navbar-mobile-menu')">
+      ☰
+    </button>
+  </div>
+  <div class="navbar-mobile-menu" id="navbar-mobile-menu">
+    <div class="container-fluid p-a-1">
+      <nav class="navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item col-xs-12">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item col-xs-12 {% if include.active_section == 'exhibitions' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/exhibitions">Exhibitions</a>
+          </li>
+          <li class="nav-item col-xs-12 {% if include.active_section == 'public-programs' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/public-programs">Public Programs</a>
+          </li>
+          <li class="nav-item col-xs-12 {% if include.active_section == 'fys' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/foster-youth-services">Foster Youth Services</a>
+          </li>
+          <li class="nav-item col-xs-12 {% if include.active_section == 'education' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/education">Education</a>
+          </li>
+          <li class="nav-item col-xs-12 {% if include.active_section == 'news' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/news">News</a>
+          </li>
+          <li class="nav-item col-xs-12 nav-item__donate {% if include.active_section == 'donate' %}nav-item__active{% endif %}">
+            <a class="nav-link" href="/donate">Donate</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>

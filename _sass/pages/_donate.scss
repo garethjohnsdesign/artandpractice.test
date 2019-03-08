@@ -1,0 +1,151 @@
+.donate-container {
+  background-color: $brand-orange;
+  max-width: 100%;
+  padding: $base-padding-xl;
+  position: relative;
+
+  .btn-primary {
+    background-color: $brand-orange;
+    border-color: $brand-orange;
+    font-weight: bold;
+  }
+}
+
+.donate-container__inner-container {
+  background-color: $brand-white;
+  padding: $base-padding-xl;
+}
+
+.btn-donate {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $brand-white !important;
+  background-color: $brand-donate;
+  border-radius: 3px;
+  border: 2px solid $brand-donate;
+
+  &:hover {
+    color: $brand-donate !important;
+    border: 2px solid $brand-donate;
+    background-color: $brand-white;
+  }
+}
+
+.donation-input-hidden {
+  display: none;
+}
+
+.section-header__title {
+  margin-top: $base-margin-xl;
+  margin-bottom: $base-margin-xl;
+}
+
+.container .container {
+  padding: 0;
+}
+
+.control-label__required {
+  &::after {
+    content: " *";
+    color: red;
+  }
+}
+
+.donate-container {
+  .donation-amount {
+    text-align: right;
+  }
+  .donation-amount-radio {
+    label {
+      text-align: center;
+      font-weight: bold;
+    }
+    input[type="radio"] {
+      display: block;
+      margin: auto;
+    }
+    input[type="checkbox"] {
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.row.credit-cards {
+  font-size: 36px;
+  margin-top: -22px;
+  text-align: center;
+}
+
+.processing-explanation {
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+.stripe-logo {
+  font-size: 28px;
+  position: relative;
+  top: 5px;
+  left: -3px;
+}
+
+.donate-container__other-ways,
+.donate-container__success {
+  display: none;
+  font-size: 16px;
+}
+
+.form-control__conditional {
+  margin-top: $base-margin-md;
+}
+
+.donation-attribution {
+
+  label {
+    width: 100%;
+  }
+}
+
+.has-validation-error {
+  color: #a94442;
+  background-color: #f2dede;
+}
+
+.donate-container__huge {
+  font-size: 130px;
+  font-weight: $heavy-font-weight;
+  color: $brand-blue;
+  text-transform: uppercase;
+
+  p {
+    line-height: 135%;
+  }
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    font-size: 110px;
+  }
+
+  @media screen and (max-width: $grid-breakpoint-sm) {
+    font-size: 70px;
+  }
+}
+
+.donation-container__address {
+  font-size: 20px;
+  line-height: 30px !important;
+}
+
+.donation-amount-radio > div {
+  margin-bottom: $base-margin-md;
+}
+
+.donate-body .section-divider {
+  @media screen and (max-width: $grid-breakpoint-md) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.include-transaction-fee-container {
+  margin-top: $base-margin-lg;
+}

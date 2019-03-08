@@ -1,0 +1,69 @@
+// COLORS
+
+$brand-white: #FFFFFF;
+$brand-blue: #000080;
+$brand-black: #1A1A1A;
+$brand-light-gray: #F5F5F5;
+$brand-gray: #D9D9D9;
+$brand-orange: #FF9900;
+$brand-green: #00AC29;
+$brand-purple: #6D1FAE;
+$brand-aqua: #00DAFF;
+$brand-red: #d2232a;
+
+// COLORS BY CATEGORY
+
+$brand-copy: $brand-black;
+$brand-donate: $brand-orange;
+$brand-employment: $brand-green;
+$brand-housing: $brand-purple;
+$brand-education: $brand-aqua;
+
+// SPACING
+
+$base-spacing: 10px;
+$base-margin: $base-spacing;
+$base-padding: $base-margin;
+$base-margin-sm: ($base-spacing * 0.5);
+$base-padding-sm: ($base-margin-sm);
+$base-margin-md: ($base-spacing * 0.75);
+$base-padding-md: ($base-margin-md);
+$base-margin-lg: ($base-spacing * 1.5);
+$base-padding-lg: ($base-margin-lg);
+$base-margin-xl: ($base-spacing * 3);
+$base-padding-xl: ($base-margin-xl);
+$base-margin-xxl: ($base-spacing * 4);
+$base-padding-xxl: ($base-margin-xxl);
+$base-margin-xxxl: ($base-spacing * 5);
+$base-padding-xxxl: ($base-margin-xxxl);
+$base-margin-xxxxl: ($base-spacing * 6);
+$base-padding-xxxxl: ($base-margin-xxxxl);
+
+// GRID
+
+$grid-breakpoint-xs: 0;
+// Small screen / phone
+$grid-breakpoint-sm: 544px;
+// Medium screen / tablet
+$grid-breakpoint-md: 768px;
+// Large screen / desktop
+$grid-breakpoint-lg: 992px;
+// Extra large screen / wide desktop
+$grid-breakpoint-xl: 1200px;
+
+$medium-font-weight: 500;
+$heavy-font-weight: 900;
+
+// FONTS
+
+$font-size-sm: 11px;
+$font-size-md: 12px;
+$font-size-lg: 14px;
+$font-size-xl: 16px;
+
+
+@mixin active-link() {
+  font-weight: bold;
+
+  color: $brand-blue;
+}

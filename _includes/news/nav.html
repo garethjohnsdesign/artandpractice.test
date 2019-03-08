@@ -1,0 +1,23 @@
+<div class="sub-nav {% if include.hidden != true %}is-visible{% endif %}">
+  <div class="sub-nav__sub-nav-header">
+    <p class="sub-nav-header__title sub-heading">News</p>
+  </div>
+  <div class="sub-nav__section-divider"></div>
+
+  <ul class="nav">
+    {% assign news_grouped_by_category = site.news | group_by: 'category' | sort: 'category' %}
+
+    <li class="sub-nav__nav-item {% if include.active == 'news_recent' %}active{% endif %}">
+      <a class="nav-link" href="/news/recent/">Recent</a>
+    </li>
+    {% for category in site.data["news_categories"] %}
+      {% assign collection_name = "news_" | append: category | replace: ' ', '_' %}
+      <li class="sub-nav__nav-item {% if include.active == collection_name %}active{% endif %}">
+        <a class="nav-link" href="/news/{{category | slugify}}/">{{category}}</a>
+      </li>
+    {% endfor %}
+    <li class="sub-nav__nav-item {% if include.active == 'news' %}active{% endif %}">
+      <a class="nav-link" href="/news/archive">Archive</a>
+    </li>
+  </ul>
+</div>

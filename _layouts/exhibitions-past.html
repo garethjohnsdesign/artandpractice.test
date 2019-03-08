@@ -1,0 +1,58 @@
+---
+section: exhibitions
+layout: default
+---
+
+{% include page-subheader.html title=page.subheader %}
+
+<div class="row content">
+  <div class="col-md-4 col-lg-3">
+    {% include exhibitions/nav.html active='past' %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    <div class="row hidden-sm-down">
+      <div class="col-xs-12">
+        {% assign exhibitions_grouped_by_year = site.exhibitions_past | group_by: 'start_date_year' | sort: 'start_date_year' | reverse %}
+
+        {% if exhibitions_grouped_by_year.size > 1 %}
+          {% include tabs.html grouping=exhibitions_grouped_by_year grouping-prefix='exhibition-year' %}
+          <div class="section-divider section-divider__sm"></div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="row hidden-sm-down">
+      <div class="col-xs-12">
+        <div class="tab-content">
+          {% for exhibition_year in exhibitions_grouped_by_year %}
+            <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="exhibition-year-{{exhibition_year.name}}" role="tabpanel">
+              {% for exhibition in exhibition_year.items %}
+                {% include exhibitions/abstract.html exhibition=exhibition %}
+                {% if forloop.length > 1 and forloop.last == false %}
+                  <div class="section-divider"></div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row hidden-md-up">
+      <div class="col-xs-12">
+        {% assign collection = site.exhibitions_past | sort: 'start_date' | reverse %}
+        {% for exhibition in collection %}
+          {% include exhibitions/abstract-abbreviated-mobile.html exhibition=exhibition %}
+          {% if forloop.last != true %}
+            <div class="section-divider section-divider__sm"></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include exhibitions/nav.html active='past' hidden=true %}
+  </div>
+</div>

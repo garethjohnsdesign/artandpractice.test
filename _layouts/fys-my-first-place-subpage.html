@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% include page-subheader.html title=page.heading %}
+
+<div class="row about content">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/my-first-place-subpage-nav.html %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    <div class="grouping navigation-section" id="overview" data-waypoint-offset="25%">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="exhibition__heading">{{page.heading}}</div>
+        </div>
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="row">
+        <div class="col-sm-6 col-md-12 col-lg-6 hidden-sm-up"> <!-- xsmall -->
+          {% include carousel.html images=page.images %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 hidden-sm-down hidden-lg-up"> <!-- medium -->
+          {% include carousel.html images=page.images %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class="text">
+            {{page.overview_text | markdownify}}
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 hidden-xs-down hidden-md-up"> <!-- small -->
+          {% include carousel.html images=page.images %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 hidden-md-down"> <!-- large / xl -->
+          {% include carousel.html images=page.images %}
+        </div>
+      </div>
+    </div>
+    <div class="grouping navigation-section" id="results">
+      {% include base/grouping-heading.html text="results" %}
+      <div class="row">
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class="image-container">
+            {% include base/image.html class="news__image image__image" src=page.results.image.image %}
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class='spacer-lg'></div>
+          <div class="text">
+            {{page.results.text | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row bottom-nav">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/my-first-place-nav.html hidden=true %}
+  </div>
+</div>

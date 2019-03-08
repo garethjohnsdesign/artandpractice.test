@@ -1,0 +1,152 @@
+.home-hero {
+  position: relative;
+
+  text-transform: uppercase;
+}
+
+.home-container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.home-hero-content {
+  position: absolute;
+  z-index: 1;
+  font-weight: $heavy-font-weight;
+  font-size: 115px;
+
+  padding: $base-padding-xl;
+
+  width: 100%;
+
+  @media screen and (min-width: $grid-breakpoint-md) {
+    font-size: 90px;
+    bottom: 140px;
+  }
+
+  @media screen and (min-width: $grid-breakpoint-lg) {
+    font-size: 105px;
+    bottom: 160px;
+  }
+
+  @media screen and (min-width: $grid-breakpoint-xl) {
+    font-size: 115px;
+    bottom: 180px;
+  }
+
+  // So handled because the container spans full bleed but
+  // the text should stay within the normal bounds of $grid-breakpoint-xl
+  @media screen and (min-width: $grid-breakpoint-xl) {
+    width: 1200px;
+    margin-left: -600px;
+    left: 50%;
+  }
+  
+  text-align: left;
+
+  color: $brand-white;
+
+  .home-hero {
+    z-index: -1;
+  }
+}
+
+.links {
+  margin-top: $base-margin-lg;
+  list-style: none;
+  padding-left: $base-padding-lg;
+  
+  li {
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  li.donate a {
+    color: $brand-donate;
+  }
+}
+
+.home-container h1 {
+  position: absolute;
+  width: 95%;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $brand-white;
+  left: $base-padding-lg;
+  bottom: 127px;
+}
+
+.home-hero .donate-circle {
+  position: absolute;
+  right: 118px;
+  border-radius: 50%;
+  background-color: $brand-donate;
+  width: 130px;
+  height: 130px;
+  color: $brand-white;
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 46px;
+  }
+}
+
+.home-container .carousel-images .carousel-item {
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 224px);
+
+  @media screen and (min-width: $grid-breakpoint-md) {
+    min-height: 425px;
+  }
+
+  @media screen and (min-width: $grid-breakpoint-lg) {
+    min-height: 550px;
+  }
+
+  @media screen and (min-width: $grid-breakpoint-xl) {
+    min-height: 600px;
+  }
+
+  max-height: 700px;
+
+  margin-bottom: 0;
+
+  .carousel-item-container {
+    padding: $base-padding-xl;
+    position: absolute; 
+    width: 100%;
+    bottom: 0px;
+
+    // So handled because the container spans full bleed but
+    // the text should stay within the normal bounds of $grid-breakpoint-xl
+    @media screen and (min-width: $grid-breakpoint-xl) {
+      width: 1200px;
+      margin-left: -600px;
+      left: 50%;
+    }
+  }
+
+  p {
+    z-index: 1;
+    font-weight: $heavy-font-weight;
+    text-align: left;
+    color: $brand-white;
+
+    @media screen and (min-width: $grid-breakpoint-md) {
+      font-size: 90px;
+    }
+
+    @media screen and (min-width: $grid-breakpoint-lg) {
+      font-size: 105px;
+    }
+
+    @media screen and (min-width: $grid-breakpoint-xl) {
+      font-size: 115px;
+    }
+  }
+}

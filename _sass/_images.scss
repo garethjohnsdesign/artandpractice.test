@@ -1,0 +1,18 @@
+.image-container {
+  @media screen and (max-width: $grid-breakpoint-lg) {
+    margin-bottom: $base-margin-lg;
+  }
+}
+
+.image__image {
+  width: 100%;
+}
+
+.image__caption, .carousel-caption {
+  font-size: 11px;
+
+  margin-top: $base-margin;
+
+  color: $brand-black;
+}
+

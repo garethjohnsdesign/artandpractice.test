@@ -1,0 +1,30 @@
+---
+section: exhibitions
+layout: default
+---
+
+{% include page-subheader.html title=page.subheader %}
+
+<div class="row content">
+  <div class="col-md-4 col-lg-3">
+    {% include exhibitions/nav.html active='on-view' %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    {% if site.exhibitions_on_view.size > 0 %}
+      {% assign collection = site.exhibitions_on_view | sort: 'start_date' | reverse %}
+      {% for exhibition in collection %}
+        {% include exhibitions/abstract.html exhibition=exhibition %}
+        {% if forloop.length > 1 and forloop.last == false %}
+          <div class="section-divider"></div>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <p>There are currently no on view exhibitions.</p>
+    {% endif %}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include exhibitions/nav.html active='on-view' hidden=true %}
+  </div>
+</div>

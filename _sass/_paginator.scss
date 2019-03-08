@@ -1,0 +1,18 @@
+.paginator {
+  margin-top: $base-margin-xl;
+
+  text-align: right;
+}
+
+.paginator__pager-status {
+  display: inline-block;
+
+  margin-top: $base-margin-sm;
+}
+
+.paginator__pager-buttons {
+  display: inline-block;
+  float: right;
+
+  margin-left: $base-margin;
+}

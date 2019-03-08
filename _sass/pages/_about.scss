@@ -1,0 +1,37 @@
+.campus-map {
+  width: 100%;
+  margin-bottom: $base-margin-xl;
+}
+
+.campus-map__legend ul {
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.campus-map__legend li {
+  font-size: $font-size-lg;
+
+  display: block;
+
+  height: 28px;
+  margin-bottom: $base-margin-xl;
+
+  img {
+    float: left;
+
+    margin-right: $base-margin;
+  }
+
+  span {
+    display: block;
+
+    padding-top: 4px;
+
+    text-transform: uppercase;
+  }
+}
+
+.about-text ul li{
+  padding-bottom: $base-padding-sm;
+}

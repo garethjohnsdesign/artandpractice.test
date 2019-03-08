@@ -1,0 +1,16 @@
+<div class="subheader">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 section-header">
+        <h1 class="section-header__title">{{ include.title }}</h1>
+        <div class="section-header__underline"></div>
+        {% if include.content %}
+          <div class="section-header__description text">
+            {{ include.content | markdownify }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+</div>

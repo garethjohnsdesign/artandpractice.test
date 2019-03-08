@@ -1,0 +1,84 @@
+---
+section: exhibitions
+layout: default
+---
+
+{% assign exhibitions_upcoming_sorted = site.exhibitions_upcoming | reverse | limit:2 | sort: 'start_date'  %}
+      
+{% if site.exhibitions_on_view.size == 0 %}
+  {% assign next_show = exhibitions_upcoming_sorted | first %}
+  {% assign next_show_date = next_show.start_date | date: '%B %-d, %Y' %}
+  {% if next_show.subtitle %}
+    {% assign next_show_title = next_show.subtitle | append: ': ' | append: next_show.title %}
+  {% else %}
+    {% assign next_show_title = next_show.title %}
+  {% endif %}
+  
+  {% assign announcement_content = site['no_on_view_exhibitions_notification_text'] | replace: "%show_title%", next_show_title | replace: "%show_date%", next_show_date %}
+  {% assign banner_content = site['no_on_view_exhibitions_notification_banner_text'] | replace: "%show_title%", next_show_title | replace: "%show_date%", next_show_date | replace: "%here_link%", "**<a href='#'>here</a>**" %}
+  {% include announcement.html banner=banner_content content=announcement_content %}
+{% endif %}
+
+{% include page-subheader.html title='Exhibitions' content=site.exhibitions_description %}
+
+<div class="row content">
+  <div class="col-md-4 col-lg-3">
+    {% include exhibitions/nav.html active="overview" %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    {% if site.exhibitions_on_view.size != 0 %}
+      {% include base/grouping-heading.html text="on view" %}
+
+      {% for exhibition in site.exhibitions_on_view %}
+        {% include exhibitions/abstract.html exhibition=exhibition %}
+      {% endfor %}
+    {% endif %}
+
+    {% if site.exhibitions_on_view.size != 0 and site.exhibitions_upcoming.size != 0 %}
+      <div class="section-divider"></div>
+    {% endif %}
+
+    {% if exhibitions_upcoming_sorted.size != 0 %}
+      {% include base/grouping-heading.html text="upcoming exhibitions" %}
+
+      {% for exhibition in exhibitions_upcoming_sorted %}
+        {% include exhibitions/abstract.html exhibition=exhibition %}
+        {% if forloop.length > 1 and forloop.last == false %}
+          <div class="section-divider"></div>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% if site.exhibitions_on_view.size == 0 %}
+        <div class="row no-upcoming-public-programs">
+          <div class="col-xs-12 col-md-8">
+            {% assign notification_content = site['no_upcoming_exhibitions']['text'] | replace: "%here_link%", "**<a href='#'>here</a>**" %}
+            
+            {{ notification_content | markdownify }}
+            <div class="spacer-xl"></div>
+            {% include base/image.html style="width: 100%" class="catalogue__cover-image" src=site.no_upcoming_exhibitions.image.image alt="no upcoming exhibitions" %}
+            <div class="image__caption">{{ site['no_upcoming_exhibitions']['image']['caption'] | markdownify }}</div>
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+<div class="row hidden-md-up">
+  <div class="col-xs-12">
+    <div class="section-divider"></div>
+    {% include base/grouping-heading.html text="past" %}
+    {% assign collection = site.exhibitions_past | sort: 'start_date' | reverse %}
+    {% for exhibition in collection %}
+      {% include exhibitions/abstract-abbreviated-mobile.html exhibition=exhibition %}
+
+      {% if forloop.last != true %}
+        <div class="section-divider section-divider__sm"></div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include exhibitions/nav.html active="overview" hidden=true %}
+  </div>
+</div>

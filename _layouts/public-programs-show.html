@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+{% include page-subheader.html title='Public Programs' content=site.public_programs_description %}
+
+<div class="row public-program-show content">
+  <div class="col-md-4 col-lg-3">
+    {% include public-programs/show-nav.html public_program=page %}
+  </div>
+  <div class="col-md-8 col-lg-9 public-program-show__content-container">
+    <div class="container">
+      <div class="row navigation-section" id="introduction" data-waypoint-offset="25%">
+        <div class="col-xs-12">
+          <h1 class="public-program__heading">{{ page.title }}</h1>
+          {% if page.start_date and page.end_date %}
+            <p class="public-program__date">{{ page.start_date | date: '%B %-d, %Y' }}
+            <p class="public-program__time-range">{{ page.start_date | date: '%-I:%M %p' }} - {{ page.end_date | date: '%-I:%M %p' }}</p>
+          {% endif %}
+
+          <div class="spacer-xl"></div>
+        </div>
+      </div>
+
+      {% if page.recording_id %}
+      <div class="row">
+        <div class="col-xs-12">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.recording_id}}&amp;color=000080"></iframe>
+        </div>
+      </div>
+      
+      <div class="spacer-lg"></div>
+      {% endif %}
+
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hidden-lg-up">
+            {% include carousel.html images=page.program_images is_carousel=false %}
+          </div>
+
+          <div class="public-program__text text">
+            {% if page.content %}
+              {{ page.content | markdownify }}
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col-lg-6 hidden-md-down">
+          {% include carousel.html images=page.program_images %}
+        </div>
+      </div>
+
+      {% if page.has_hidden_biography != true %}
+        <div class="section-divider"></div>
+      {% endif %}
+
+      {% unless page.has_hidden_biography == true %}
+        <div class="row navigation-section" id="biography">
+          {% if page.artists.size > 1 %}
+            {% include base/grouping-heading.html text="biographies" %}
+          {% else %}
+            {% include base/grouping-heading.html text="biography" %}
+          {% endif %}
+
+          {% assign artists = page.artists | sort: 'last_name' | sort: 'first_name' %}
+          {% for artist in artists %}
+            {% if artist.biography_text %}
+              <div class="col-xs-12">
+                <div class="row biography">
+                  <div class="col-lg-6">
+                    <div class="image-container hidden-lg-up">
+                      {% include base/image.html class="public-program__image image__image" src=artist.photo_image.image %}
+                      {% if artist.photo_image.caption %}
+                        <div class="image__caption">{{ artist.photo_image.caption | markdownify }}</div>
+                      {% endif %}
+                    </div>
+                    <div class="public-program__text text">
+                      {% if artist.biography_text %}
+                        {{ artist.biography_text | markdownify }}
+                      {% endif %}
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 hidden-md-down">
+                    <div class="image-container">
+                      {% include base/image.html class="public-program__image image__image" src=artist.photo_image.image %}
+                      <div class="image__caption">
+                        {% if artist.photo_image.caption %}
+                          {{ artist.photo_image.caption | markdownify }}
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endunless %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include public-programs/show-nav.html public_program=page hidden=true %}
+  </div>
+</div>
