@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+{% if page.on_view %}
+  {% include page-subheader.html title="On View" %}
+{% elsif page.upcoming %}
+  {% include page-subheader.html title="Upcoming Exhibitions" %}
+{% elsif page.past %}
+  {% include page-subheader.html title="Past Exhibitions" %}
+{% endif %}
+
+<div class="row exhibition-show content">
+  <div class="col-md-4 col-lg-3">
+    {% include exhibitions/show-nav.html exhibition=page %}
+  </div>
+  <div class="col-md-8 col-lg-9 exhibition-show__content-container">
+    <div class="container">
+      <div class="row navigation-section" id="introduction" data-waypoint-offset="25%">
+        <div class="col-xs-12">
+          {% if page.subtitle %}
+            <h3 class="exhibition__subheading">{{ page.subtitle }}</h3>
+          {% endif %}
+          <h2 class="exhibition__heading">{{ page.title }}</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="exhibition__showing-date-range">{{ page.start_date | date: '%B %-d, %Y' }} - {{ page.end_date | date: '%B %-d, %Y' }}</p>
+          <p class="exhibition__opening-date">Opening: {{ page.opening_start_date | date: '%B %-d, %Y' }}, <span class="no-wrap">{{ page.opening_start_date | date: '%-I:%M %p' }} - {{ page.opening_end_date | date: '%-I:%M %p' }}</span><br><a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">{{ site['Exhibition Space'].street }}, <span class="no-wrap">{{ site['Exhibition Space'].city }}, {{ site['Exhibition Space'].state }} {{ site['Exhibition Space'].zip }}</span></a></p>
+
+          <div class="hidden-lg-up">
+            {% include carousel.html images=page.works_images is_carousel=false %}
+          </div>
+
+          <div class="exhibition__text text">
+            {{ page.content | markdownify }}
+          </div>
+        </div>
+
+        <div class="col-lg-6 hidden-md-down">
+          {% include carousel.html images=page.works_images %}
+        </div>
+      </div>
+
+      {% if page.has_hidden_biography != true %}
+        <div class="section-divider"></div>
+      {% endif %}
+
+      {% unless page.has_hidden_biography == true %}
+        {% if page.artists.size > 1 %}
+          {% include base/grouping-heading.html text="biographies" %}
+        {% else %}
+          {% include base/grouping-heading.html text="biography" %}
+        {% endif %}
+
+        {% assign artists = page.artists | sort: 'last_name' | sort: 'first_name' %}
+        {% for artist in artists %}
+          <div class="row navigation-section" id="biography">
+            <div class="col-lg-6">
+              <div class="image-container hidden-lg-up">
+                {% include base/image.html class="exhibition__image image__image" src=artist.photo_image.image alt=artist.first_name %}
+                <div class="image__caption">
+                  {% if artist.photo_image.caption %}
+                    {{ artist.photo_image.caption | markdownify }}
+                  {% endif %}
+                </div>
+              </div>
+              <div class="exhibition__text text">
+                {% if artist.biography_text %}
+                  {{ artist.biography_text | markdownify }}
+                {% endif %}
+              </div>
+            </div>
+
+            {% assign image = artist.photo_image %}
+            <div class="col-lg-6 hidden-md-down">
+              <div class="image-container">
+                {% include base/image.html class="exhibition__image image__image" src=artist.photo_image.image alt=artist.first_name %}
+                <div class="image__caption">
+                  {% if image.caption %}
+                    {{ image.caption | markdownify }}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% if forloop.length > 1 and forloop.last == false %}
+            <div class="spacer-xl"></div>
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+
+      {% assign first_installation_image = page.installation_images | first %}
+
+      {% if first_installation_image.image %}
+        <div class="section-divider"></div>
+      {% endif %}
+
+      {% if first_installation_image.image %}
+        <div class="row navigation-section" id="installation-views">
+          {% include base/grouping-heading.html text="installation views" %}
+
+          <div class="col-xs-12">
+            <div class="hidden-md-down">
+              {% include carousel.html images=page.installation_images %}
+            </div>
+            <div class="hidden-lg-up">
+              {% include carousel.html images=page.installation_images is_carousel=false unfold=true %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include exhibitions/show-nav.html exhibition=page hidden=true %}
+  </div>
+</div>

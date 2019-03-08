@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+{% assign subheader_content = page.content %}
+{% include page-subheader.html title='Education' content=subheader_content %}
+
+<div class="row education content">
+  <div class="col-md-4 col-lg-3">
+    <div class="sub-nav scroll-links {% if include.hidden != true %}is-visible{% endif %}">
+      <div class="sub-nav__sub-nav-header">
+        <p class="sub-nav-header__title sub-heading">{{site['Exhibition Space'].title}}</p>
+        <a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">
+          <p class="sub-nav-header__subtitle">{{site['Exhibition Space'].street}}<br>
+          {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}
+          </p>
+        </a>
+        <p class="sub-nav-header__subtitle">Free admission</p>
+      </div>
+      <div class="sub-nav__section-divider"></div>
+
+      <ul class="nav" id="sub-nav">
+        <li class="sub-nav__nav-item nav-item scroll active">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="sub-nav__nav-item nav-item scroll">
+          <a class="nav-link" href="#schedule-a-visit">Schedule a visit</a>
+        </li>
+        <li class="sub-nav__nav-item nav-item scroll">
+          <a class="nav-link" href="#post-visit-survey">Post-visit Survey</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-md-8 col-lg-6">
+    <div class="grouping navigation-section" id="about" data-waypoint-offset="25%">
+      {% include base/grouping-heading.html text="about" %}
+      <div class="image-container" style="margin-bottom: 15px;">
+        {% include base/image.html class="image__image" src=page.about_image %}
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="text">
+        {{page.about_text | markdownify}}
+      </div>
+      <a href="{{page.past_resources.file}}" target="blank">
+        <button class="btn btn-primary">View Past Resources <i class="icon-right-dir"></i></button>
+      </a>
+      <p> </p>
+    </div>
+
+    <div class="grouping navigation-section" id="schedule-a-visit">
+      {% include base/grouping-heading.html text="schedule a visit" %}
+      <div class="image-container" style="margin-bottom: 15px;">
+        {% include base/image.html class="image__image" src=page.schedule_a_visit.image %}
+      </div>
+      <div class='spacer-sm'></div>
+      <div class="text">
+        {{page.schedule_a_visit.text | markdownify}}
+      </div>
+      <a href="mailto:education@artandpractice.org">
+        <button class="btn btn-primary">Schedule a School Visit <i class="icon-right-dir"></i></button>
+      </a>
+      <p> </p>
+    </div>
+
+    <div class="grouping navigation-section" id="post-visit-survey">
+      {% include base/grouping-heading.html text="post-visit survey" %}
+      <div class="text">
+        {% assign phone_formatted = site['Admin Office'].phone | phone %}
+        {{page.post_visit.text | markdownify | replace: "%phone%", site['Admin Office'].phone | replace: "%phone_formatted%", phone_formatted}}
+      </div>
+      <a href="{{page.post_visit.survey_link}}" target="blank">
+        <button class="btn btn-primary">POST SCHOOL VISIT SURVEY <i class="icon-right-dir"></i></button>
+      </a>
+    </div>
+  </div>
+  
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include exhibitions/show-nav.html exhibition=page hidden=true %}
+  </div>
+</div>

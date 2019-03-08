@@ -1,0 +1,49 @@
+.section-header {
+  text-align: center;
+}
+
+.section-header__title {
+  font-size: 18px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.section-header__description {
+  font-size: 16px;
+
+  margin-top: $base-margin-lg;
+}
+
+.grouping-heading {
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: $base-margin-xl;
+}
+
+.grouping-heading__text {
+  margin-bottom: $base-margin;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grouping-heading__underline, .section-header__underline {
+  width: 100px;
+  height: 0;
+  margin: auto;
+
+  border-bottom: 1px solid $brand-blue;
+
+  &.underline__full-width {
+    width: 100%;
+  }
+}
+
+.grouping-heading__underline {
+  margin-bottom: $base-margin-lg;
+}
+
+.section-header__underline {
+  margin-bottom: 0;
+}

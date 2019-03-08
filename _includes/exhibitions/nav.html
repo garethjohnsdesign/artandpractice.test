@@ -1,0 +1,27 @@
+<div class="sub-nav {% if include.hidden != true %}is-visible{% endif %}">
+  <div class="sub-nav__sub-nav-header">
+    <p class="sub-nav-header__title sub-heading">{{site['Exhibition Space'].title}}</p>
+    <a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">
+      <p class="sub-nav-header__subtitle">{{site['Exhibition Space'].street}}<br>
+      {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}</p>
+    </a>
+    <p class="sub-nav-header__subtitle">Free admission</p>
+    <div class="sub-nav__section-divider"></div>
+  </div>
+
+  <ul class="nav" id="sub-nav">
+    {% if site.exhibitions_on_view.size != 0 %}
+      {% assign exhibition = site.exhibitions_on_view[0] %}
+      <li class="sub-nav__nav-item nav-item {% if include.active == 'on-view' %}active{% endif %}">
+        <a class="nav-link" href="/exhibitions/on-view">On View</a>
+      </li>
+    {% endif %}
+    </li>
+    <li class="sub-nav__nav-item nav-item {% if include.active == 'upcoming' %}active{% endif %}">
+      <a class="nav-link" href="/exhibitions/upcoming/">Upcoming</a>
+    </li>
+    <li class="sub-nav__nav-item nav-item {% if include.active == 'past' %}active{% endif %}">
+      <a class="nav-link" href="/exhibitions/past/">Past</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,206 @@
+---
+title: Art + Practice
+timezone: UTC
+collections:
+  exhibitions:
+    title: Exhibitions
+    output: true
+    permalink: "/exhibitions/:path/"
+  news:
+    title: News
+    output: true
+    permalink: "/news/:path/"
+  posts:
+    title: Posts
+    output: true
+  public_programs:
+    title: Public Programs
+    output: true
+    permalink: "/public-programs/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: exhibitions
+  values:
+    subtitle: 
+    layout: exhibitions-show
+    artists:
+    - first_name: 
+      last_name: 
+      photo_image:
+        image: 
+        caption: 
+      biography_text: 
+    start_date: 
+    end_date: 
+    abstract_text: 
+    opening_start_date: 
+    opening_end_date: 
+    installation_images:
+    - image: 
+      caption: 
+    works_images:
+    - image: 
+      caption: 
+    press_release_file: 
+    has_hidden_biography: false
+- scope:
+    path: ''
+    type: public_programs
+  values:
+    start_date: 
+    end_date: 
+    abstract_text: 
+    artists:
+    - first_name: 
+      last_name: 
+      photo_image:
+        image: 
+        caption: 
+      biography_text: 
+    program_images:
+    - image: 
+      caption: 
+    recording_id: 
+    has_hidden_biography: false
+    layout: public-programs-show
+- scope:
+    path: ''
+    type: news
+  values:
+    layout: news-show
+    publication: 
+    author_name: 
+    published_date: 
+    category_tags:
+    - 
+    link:
+    - 
+    images:
+    - image: 
+      caption: 
+plugins:
+- jekyll-sitemap
+exclude:
+- vendor
+- node_modules
+Donations Disclaimer:
+  text: Donations for Art \+ Practice go towards A\+P's foster youth and contemporary
+    art programs. A\+P is a registered <span class="no-wrap">501(c)(3)</span> nonprofit.
+    All donations are <span class="no-wrap">tax-deductible</span>.
+Exhibition Space:
+  title: Exhibition Space
+  street: 3401 W. 43rd Place
+  city: Los Angeles
+  state: CA
+  zip: 90008
+  hours: Mon - Sat, 12:00 p.m. - 6:00 p.m.
+  image: "/uploads/newstar_linedrawing.png"
+  phone: 3233376887
+  email: office@artandpractice.org
+Education Space:
+  title: Exhibition Space
+  street: 3401 W. 43rd Place
+  city: Los Angeles
+  state: CA
+  zip: 90008
+  hours: Mon - Sat, 12:00 p.m. - 6:00 p.m.
+  image: "/uploads/newstar_linedrawing.png"
+  phone: 3233376887
+  email: office@artandpractice.org
+Foster Youth Practice Space:
+  title: First Place For Youth
+  street: 4337 Leimert Blvd
+  city: Los Angeles
+  state: CA
+  zip: 90008
+  hours: 
+  image: "/uploads/newstar_linedrawing.png"
+  phone: 2132792785
+  email: info@firsplaceforyouth.org
+Foster Youth Collaborator:
+  title: First Place For Youth @ A+P
+  website_home: http://www.firstplaceforyouth.org/
+  website: http://www.firstplaceforyouth.org/who-we-are/mission-and-values/
+  website_about_link: http://www.firstplaceforyouth.org/about-us/
+  website_donate_link: https://www.firstplaceforyouth.org/join-us/donate/
+Public Programs Space:
+  title: Public Programs Space
+  street: 4334 Degnan Blvd
+  city: Los Angeles
+  state: CA
+  zip: 90008
+  image: "/uploads/newstar_linedrawing.png"
+  phone: 3233376887
+  email: office@artandpractice.org
+  hours: Open for scheduled programs only
+Admin Office:
+  title: Admin Office
+  phone: 3233376887
+  email: office@artandpractice.org
+logo_image: "/uploads/a p_header_logo_hover.png"
+logo_hover_image: "/uploads/a p_header_logo.png"
+social:
+  facebook: https://www.facebook.com/artandpractice
+  instagram: https://www.instagram.com/artandpractice
+  twitter: https://twitter.com/_artandpractice
+no_on_view_exhibitions_notification_banner_text: A+P’s Exhibition Space is currently
+  closed. Stay tuned for the next exhibition, opening %show_date%.
+no_on_view_exhibitions_notification_text: Join our mailing list below for updates
+  on upcoming A+P programs.
+donation_failure_notification_text: Something didn't work properly.  If you need assistance,
+  please call (323) 337-6887 or e-mail [office@artandpractice.org](mailto:office@artandpractice.org).
+no_upcoming_exhibitions:
+  text: |-
+    There are currently no upcoming exhibitions. To receive
+    e-mail updates about A+P’s upcoming events, please subscribe
+    to our newsletter %here_link%.
+  image:
+    image: "/uploads/noexhibitions.jpg"
+    caption: The Art + Practice exhibition space in Leimert Park, Los Angeles.  February
+      3, 2017.  Photo by Natalie Hon.
+no_upcoming_public_programs:
+  text: |-
+    There are no public programs scheduled at this time. To receive
+    e-mail updates about A+P’s upcoming events, please subscribe
+    to our newsletter %here_link%.
+  image:
+    image: "/uploads/nopublicprograms_XL-.jpg"
+    caption: 'In Conversation: Njideka Akunyili Crosby and Akosua Adoma Owusu Moderated
+      by Jamillah James at Art + Practice. Los Angeles.  September 24, 2015.  Photo
+      by Elon Schoenholz.'
+footer:
+  Subscribe to Newsletter:
+    title: Subscribe to Newsletter
+google:
+  description: |-
+    Conceived and founded by artist Mark Bradford, philanthropist and collector Eileen Harris Norton, and social activist Allan DiCastro, Art \+ Practice (A\+P) is a private operating 501(c)3 foundation based in Leimert Park, Los Angeles. A\+P has two areas of focus which together embody its commitment to supporting the needs of its local foster youth while also providing the community with access to free contemporary art:
+
+    * An exhibition space for museum-curated contemporary art and a public program space for moderated art lectures and discussions organized to coincide with museum-curated exhibitions on view
+
+    * A space where foster youth may receive life-skills training, access to housing opportunities, and individualized education and employment support via its foster youth service collaborator, First Place for Youth
+
+    The organization occupies a nearly 20,000-square-foot campus in Leimert Park, from which it directs its programs and activities. Admission to all exhibitions and public programs is free and open to the public.
+  founding_date: 2016-04-15 03:46:00.000000000 Z
+  address:
+    street: 3401 W. 43rd Place
+    city: Los Angeles
+    state: CA
+    zip: 90008
+public_programs_description: Public programs include individual artist talks, panels,
+  short film screenings, and exhibition walkthroughs. Programs are organized to coincide
+  with museum-curated exhibitions on view at Art + Practice.
+exhibitions_description: 'Exhibitions feature museum-curated contemporary art in all
+  media, with a special emphasis on social commentary. '
+foster_youth_services_description: In collaboration with nonprofit social service
+  provider First Place for Youth, A+P offers paid internships to foster youth primarily
+  living in Leimert Park and South Los Angeles.  First Place also provides foster
+  youth between the ages of 18-24 with education, employment and housing support on
+  A+P’s campus.
+footer_donations_disclaimer: 'A+P is a registered 501(c) 3 nonprofit. All donations
+  are <span style=''white-space: nowrap;''>tax-deductible</span>.'
+terms:
+  text: 

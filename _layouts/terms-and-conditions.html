@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="row terms-and-conditions content">
+  <div class="col-md-4 col-lg-3">
+    {% include terms-and-conditions-nav.html %}
+  </div>
+  <div class="col-md-8 col-lg-6">
+    <div class="grouping navigation-section" id="tos" data-waypoint-offset="25%">
+      {% include base/grouping-heading.html text="terms of service" %}
+      <div class="text">
+        {{page.terms_of_service_text | markdownify}}
+      </div>
+    </div>
+    <div class="grouping navigation-section" id="pp">
+      {% include base/grouping-heading.html text="privacy policy" %}
+      <div class="text">
+        {{page.privacy_policy_text | markdownify}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include terms-and-conditions-nav.html hidden=true %}
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.exhibition {}
+
+.exhibition__showing-date-range {
+  font-size: 18px;
+
+  padding-bottom: $base-padding-lg;
+}
+
+.exhibition__opening-date {
+  font-style: italic;
+
+  padding-bottom: $base-padding-lg;
+}
+
+.exhibition__subheading {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
+
+  text-transform: uppercase;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    font-size: 20px;
+  }
+}
+
+.exhibition__text {
+  strong {
+    font-weight: $medium-font-weight
+  }
+}
+
+.exhibition__heading {
+  font-size: 52px;
+  font-weight: bold;
+  font-style: italic;
+
+  padding-bottom: $base-padding;
+
+  text-transform: uppercase;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    font-size: 34px;
+  }
+}
+
+.exhibition-show {
+  .biography:not(:last-of-type) {
+    margin-bottom: $base-margin-xl;
+  }
+}

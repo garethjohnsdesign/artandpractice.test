@@ -1,0 +1,7 @@
+{% assign sizes = include.sizes || "(min-width: 768px) 600px, 100vw" %}
+
+<img class="imgix-img {{include.class}}" 
+     ix-src="https://artandpractice.imgix.net{{include.src}}" 
+     sizes="{{sizes}}"
+     style="{{include.style}}"
+     alt="{{include.alt}}" />

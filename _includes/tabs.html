@@ -1,0 +1,7 @@
+<ul class="nav nav-tabs" role="tablist">
+  {% for item in include.grouping %}
+    <li class="nav-item">
+      <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="tab" href="#{{include.grouping-prefix}}-{{item.name}}" role="tab">{{item.name}}</a>
+    </li>
+  {% endfor %}
+</ul>

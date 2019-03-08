@@ -1,0 +1,61 @@
+.carousel-container {
+  ul {
+    padding-left: 0;
+
+    list-style: none;
+  }
+
+  li {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  // __unfold is for a carousel that unfolds to just
+  // stacked images instead of the carousel treatment
+  &.carousel-container__unfold {
+    @media screen and (max-width: $grid-breakpoint-lg) {
+      li, li.active {
+        display: block;
+
+        margin-bottom: $base-margin-xl;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $grid-breakpoint-lg) {
+  .carousel-container__unfold .carousel__pager-status {
+    display: none;
+  }
+}
+
+.carousel-pager__divider {
+  margin-left: $base-margin-md;
+}
+
+.carousel__pager-status {
+  font-size: $font-size-md;
+
+  float: right;
+
+  margin-bottom: $base-margin;
+
+  .icon-left-dir, .icon-right-dir {
+    font-size: 18px;
+    cursor: pointer;
+
+    position: relative;
+    top: 2px;
+  }
+}
+
+.carousel-item {
+  margin-bottom: $base-margin-xl;
+
+  img {
+    width: 100% !important;
+  }
+}

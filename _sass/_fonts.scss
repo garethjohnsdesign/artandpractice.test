@@ -1,0 +1,87 @@
+// REGULAR
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("../fonts/Polaris-Book.eot");
+  src: url("../fonts/Polaris-Book.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-Book.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: normal;
+  font-style: italic;
+
+  src: url("../fonts/Polaris-BookItalic.eot");
+  src: url("../fonts/Polaris-BookItalic.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-BookItalic.woff") format('woff');
+}
+
+// MEDIUM
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: $medium-font-weight;
+  font-style: normal;
+
+  src: url("../fonts/Polaris-Medium.eot");
+  src: url("../fonts/Polaris-Medium.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-Medium.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: $medium-font-weight;
+  font-style: italic;
+
+  src: url("../fonts/Polaris-MediumItalic.eot");
+  src: url("../fonts/Polaris-MediumItalic.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-MediumItalic.woff") format('woff');
+}
+
+// BOLD
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: bold;
+  font-style: normal;
+
+  src: url("../fonts/Polaris-Bold.eot");
+  src: url("../fonts/Polaris-Bold.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-Bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: bold;
+  font-style: italic;
+
+  src: url("../fonts/Polaris-BoldItalic.eot");
+  src: url("../fonts/Polaris-BoldItalic.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-BoldItalic.woff") format('woff');
+}
+
+// HEAVY
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: $heavy-font-weight;
+  font-style: italic;
+
+  src: url("../fonts/Polaris-HeavyItalic.eot");
+  src: url("../fonts/Polaris-HeavyItalic.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-HeavyItalic.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Polaris';
+  font-weight: $heavy-font-weight;
+  font-style: normal;
+
+  src: url("../fonts/Polaris-Heavy.eot");
+  src: url("../fonts/Polaris-Heavy.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Polaris-Heavy.woff") format('woff');
+}

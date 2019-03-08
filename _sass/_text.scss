@@ -1,0 +1,43 @@
+p {
+  line-height: 150%;
+
+  margin: 0;
+}
+
+.text p {
+  line-height: 24px;
+
+  margin-bottom: $base-margin-lg;
+}
+
+a, a:active, a:visited, a:link {
+  color: $brand-black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+
+    color: $brand-blue;
+  }
+}
+
+.sub-heading {
+  font-size: 16px;
+  font-weight: $medium-font-weight;
+
+  margin-bottom: $base-margin-lg;
+
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.medium-bold {
+  font-weight: $medium-font-weight;
+}

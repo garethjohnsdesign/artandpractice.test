@@ -1,0 +1,18 @@
+.board-and-governance__listing {
+  margin-bottom: $base-margin-xl;
+
+  text-align: center;
+}
+
+.listing__name {
+  font-size: 18px;
+  font-weight: normal;
+
+  text-transform: uppercase;
+}
+
+.listing__copy {
+  font-size: $font-size-md;
+  font-weight: $medium-font-weight;
+  font-style: italic;
+}

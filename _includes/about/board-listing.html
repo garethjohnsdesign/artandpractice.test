@@ -1,0 +1,12 @@
+{% assign person = include.person %}
+
+<div class="board-and-governance__listing">
+  <h3 class="listing__name">{{person.first_name}} {{person.last_name}}</h3>
+  <div class="listing__copy">
+    {% for position in person.positions %}
+      <p>{{position.title}}</p>
+      <p>{{position.organization}}</p>
+    {% endfor %}
+    {{person.location}}
+  </div>
+</div>

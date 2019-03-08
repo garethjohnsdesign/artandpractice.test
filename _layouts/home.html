@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="home-hero">
+
+  <div class="home-hero-content hidden-sm-down">
+    <a href="/donate" class="hidden-md-down">
+      <div class="donate-circle">
+        <p>Donate</p>
+      </div>
+    </a>
+    <div class="home-hero hidden-sm-down">
+      <p>A<b>+</b>P</p>
+      <p>Fosters</p>
+    </div>
+  </div>
+
+  <div class="home-hero-carousel">
+    <div class="carousel carousel-images slide hidden-sm-down" data-ride="carousel" data-interval="4000">
+      <div class="carousel-inner" role="listbox">
+        {% for image in page.hero_images %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}" data-index="{{forloop.index}}" style="background-image: url({{ image.xlarge_image }});">
+            <div class="carousel-item-container hidden-sm-down">
+              <p>{{image.caption}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="carousel carousel-images slide hidden-md-up" data-ride="carousel" data-interval="4000">
+      <div class="carousel-inner" role="listbox">
+        {% for image in page.mobile_hero_images %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}" data-index="{{forloop.index}}" style="background-image: url({{ image }});">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <h1 id="headline" class="hidden-md-up">Art +<br>Practice</h1>
+  <ul class="links hidden-md-up">
+    <li><a href="/exhibitions">Exhibitions<i class="icon-right-dir"></i></a></li>
+    <li><a href="/public-programs">Public Programs<i class="icon-right-dir"></i></a></li>
+    <li><a href="/foster-youth-services">Foster Youth Services<i class="icon-right-dir"></i></a></li>
+    <li><a href="/about">Visit Us<i class="icon-right-dir"></i></a></li>
+    <li class="donate"><a href="/donate">Donate<i class="icon-right-dir"></i></a></li>
+  </ul>
+</div>

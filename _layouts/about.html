@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+<div class="row about content">
+  <div class="col-md-4 col-lg-3">
+    {% include about/nav.html active="overview" %}
+  </div>
+  <div class="col-md-8 col-lg-6 about-text">
+    <div class="grouping">
+      {% include base/grouping-heading.html text="about" %}
+      <div class="text">
+        {{content | markdownify}}
+      </div>
+    </div>
+
+    <div class="grouping">
+      {% include base/grouping-heading.html text="location" %}
+      <div class="text">
+        {{page.location_text | markdownify}}
+      </div>
+      <div class="spacer-xxxl"></div>
+      <iframe
+        width="100%"
+        height="400"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/d/embed?mid=1SYsPeuwe8q2aWNNhQcYZKDYTz4fE_PaX&zoom=12" allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="grouping">
+      {% include base/grouping-heading.html text="visit us" %}
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text">
+            <p class="sub-heading no-wrap">{{site['Exhibition Space'].title}}</p>
+            <p><a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">{{site['Exhibition Space'].street}}<br>
+            {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}</a><br>
+            {{site['Exhibition Space'].hours}}
+            </p>
+
+            <p>{{site['Exhibition Space'].phone | phone}}<br>
+            {{site['Exhibition Space'].email | email}}
+            </p>
+          </div>
+
+          <div class="col-sm-6 text">
+            <p class="sub-heading no-wrap">{{site['Public Programs Space'].title}}</p>
+            <p><a href="https://www.google.com/maps?q={{site['Public Programs Space'].street}} {{site['Public Programs Space'].city}} {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}" target="blank">{{site['Public Programs Space'].street}}<br>
+            {{site['Public Programs Space'].city}}, {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}</a><br>
+            {{site['Public Programs Space'].hours}}
+            </p>
+
+            <p>{{site['Public Programs Space'].phone | phone}}<br>
+            {{site['Public Programs Space'].email | email}}
+            </p>
+          </div>
+        </div>
+        <div class="spacer-lg"></div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="text text-center">
+              <p class="medium-bold">Admission to all A+P's programs is free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grouping hidden-md-up contact">
+      {% include base/grouping-heading.html text="visit us" %}
+      <div class="container">
+        <div class="row">
+          <iframe
+            width="100%"
+            height="400"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBU36FFogYgtKWjOpDO3zqm5epWWc3jBTQ&q=Art + Practice Exhibition Space&zoom=18" allowfullscreen>
+          </iframe>
+          <div class="spacer-xl"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 text grouping">
+            <p class="sub-heading">{{site['Exhibition Space'].title}}</p>
+            <p>
+              <a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">{{site['Exhibition Space'].street}}<br>
+              {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}</a><br>
+              {{site['Exhibition Space'].hours}}
+            </p>
+
+            <p>{{site['Exhibition Space'].phone | phone}}<br>
+            {{site['Exhibition Space'].email | email}}
+            </p>
+          </div>
+
+          <div class="col-sm-6 text grouping">
+            <p class="sub-heading">{{site['Foster Youth Practice Space'].title}}</p>
+            <p>
+              <a href="https://www.google.com/maps?q={{site['Foster Youth Practice Space'].street}} {{site['Foster Youth Practice Space'].city}} {{site['Foster Youth Practice Space'].state}} {{site['Foster Youth Practice Space'].zip}}" target="blank">{{site['Foster Youth Practice Space'].street}}<br>
+              {{site['Foster Youth Practice Space'].city}}, {{site['Foster Youth Practice Space'].state}} {{site['Foster Youth Practice Space'].zip}}</a><br>
+              {{site['Foster Youth Practice Space'].hours}}
+            </p>
+
+            <p>{{site['Foster Youth Practice Space'].phone | phone}}<br>
+            {{site['Foster Youth Practice Space'].email | email}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grouping">
+      {% include base/grouping-heading.html text="contact" %}
+      <div class="text">
+        {{page.contact_text | markdownify}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row bottom-nav">
+  <div class="col-md-4 col-lg-3">
+    {% include about/nav.html active="overview" hidden=true %}
+  </div>
+</div>

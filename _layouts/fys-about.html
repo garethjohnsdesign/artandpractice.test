@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% include page-subheader.html title=page.title content=site.foster_youth_services_description %}
+
+<div class="row about content">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/nav.html %}
+  </div>
+  <div class="col-md-8 col-lg-6">
+    <div class="grouping navigation-section" id="about" data-waypoint-offset="25%">
+      {% include base/grouping-heading.html text="about" %}
+      <div class="text">
+        {{page.about_text | markdownify}}
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="grouping navigation-section" id="foster-youth-internships">
+      {% include base/grouping-heading.html text="A+P Foster Youth Internships" %}
+      <div class="image-container">
+        {% include base/image.html class="image__image" src=page.foster_youth_internships.image.image %}
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="text">
+        {{ page.foster_youth_internships.text | markdownify }}
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="grouping navigation-section" id="collaborator">
+      {% include base/grouping-heading.html text="foster youth collaborator" %}
+      <div class="image-container">
+        <a href="{{site['Foster Youth Collaborator'].website_home}}">
+          {% include base/image.html class="image__image" src=page.collaborator.image.image %}
+        </a>
+      </div>
+      <div class='spacer-lg'></div>
+      <div class="text">
+        {{page.collaborator.text | markdownify}}
+      </div>
+      <a href="/foster-youth-services/my-first-place/">
+        <button class="btn btn-primary">Read More <i class="icon-right-dir"></i></button>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row bottom-nav">
+  <div class="col-md-4 col-lg-3">
+    {% include fys/nav.html active="about" hidden=true %}
+  </div>
+</div>

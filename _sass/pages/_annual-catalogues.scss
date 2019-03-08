@@ -1,0 +1,19 @@
+.catalogue {
+  margin-bottom: $base-margin-lg;
+}
+
+.catalogue__cover-image {
+  width: 100%;
+}
+
+.catalogue__description {
+  .grouping-heading {
+    margin-bottom: $base-margin;
+
+    text-align: center;
+  }
+}
+
+.catalogue-description__title {
+  text-align: center;
+}

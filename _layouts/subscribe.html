@@ -1,0 +1,48 @@
+---
+layout: kiosk
+---
+
+<div class="row">
+  <div class="col-xs-12">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+        {% assign subheader_content = page['email_list_text'] %}
+        {% include page-subheader.html title="Subscribe" content=subheader_content %}
+      </div>
+    </div>
+    <div class="spacer-lg"></div>
+    <form class="subscribe-form" action="https://artandpractice.us8.list-manage.com/subscribe/post-json?u=342c20223e4234403a9a6554f&id=c092af9548&c=?" method="get">
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <div class="row subscribe-form__notification subscribe-form__notification-success">
+            <div class="alert alert-info" role="alert"></div>
+          </div>
+          <div class="row subscribe-form__notification subscribe-form__notification-danger">
+            <div class="alert alert-danger" role="alert"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <fieldset class="form-group col-xs-8 col-xs-offset-2 col-lg-6">
+          <input name="MERGE1" type="text" class="form-control" id="subscribe-form__first-name" placeholder="First Name">
+          <div class="spacer-lg"></div>
+        </fieldset>
+        <fieldset class="form-group col-xs-8 col-xs-offset-2 col-lg-6">
+          <input name="MERGE2" type="text" class="form-control" id="subscribe-form__last-name" placeholder="Last Name">
+          <div class="spacer-lg"></div>
+        </fieldset>
+        <fieldset class="form-group col-xs-8 col-xs-offset-2 col-lg-6">
+          <input autocapitalize="off" autocorrect="off" name="MERGE0" type="email" class="form-control" id="subscribe-form__email" placeholder="Email">
+          <div class="spacer-lg"></div>
+        </fieldset>
+        <fieldset class="form-group col-xs-8 col-xs-offset-2 col-lg-6">
+          <input name="MERGE3" type="text" pattern="\d*" maxlength="5" class="form-control" id="subscribe-form__zip-code" placeholder="Zip Code">
+          <div class="spacer-lg"></div>
+        </fieldset>
+        <div class="col-xs-8 col-xs-offset-2">
+          <input type="submit" class="btn btn-primary" value="SUBSCRIBE">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

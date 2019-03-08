@@ -1,0 +1,18 @@
+<div class="row announcement">
+  <div class="col-xs-12 col-sm-12">
+    <div class="row">
+      <div class="announcement__content">
+        {% if include.banner %}
+          <div class="banner">
+            {{ include.banner | markdownify }}
+            <div class="spacer-lg"></div>
+            <div class="section-header__underline underline__full-width"></div>
+            <div class="spacer-lg"></div>
+          </div>
+        {% endif %}
+
+        {{ include.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

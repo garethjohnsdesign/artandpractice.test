@@ -1,0 +1,29 @@
+{% assign public_program = include.public_program %}
+
+<div class="sub-nav scroll-links {% if include.hidden != true %}is-visible{% endif %}">
+  <div class="sub-nav__sub-nav-header">
+    <p class="sub-nav-header__title sub-heading">{{site['Public Programs Space'].title}}</p>
+    <a href="https://www.google.com/maps?q={{site['Public Programs Space'].street}} {{site['Public Programs Space'].city}} {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}" target="blank">
+      <p class="sub-nav-header__subtitle">{{site['Public Programs Space'].street}}<br>
+      {{site['Public Programs Space'].city}}, {{site['Public Programs Space'].state}} {{site['Public Programs Space'].zip}}
+      </p>
+    </a>
+    <p class="sub-nav-header__subtitle">Free admission</p>
+  </div>
+  <div class="sub-nav__section-divider"></div>
+
+  <ul class="nav" id="sub-nav">
+    <li class="sub-nav__nav-item nav-item scroll active">
+      <a class="nav-link" href="#introduction">Overview</a>
+    </li>
+    {% if public_program.has_hidden_biography != true %}
+      <li class="sub-nav__nav-item nav-item scroll">
+      {% if page.artists.size > 1 %}
+        <a class="nav-link" href="#biography">Biographies</a>
+      {% else %}
+        <a class="nav-link" href="#biography">Biography</a>
+      {% endif %}
+      </li>
+    {% endif %}
+  </ul>
+</div>

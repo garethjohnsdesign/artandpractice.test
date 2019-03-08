@@ -1,0 +1,39 @@
+{% assign exhibition = include.exhibition %}
+
+<div class="sub-nav scroll-links {% if include.hidden != true %}is-visible{% endif %}">
+  <div class="sub-nav__sub-nav-header">
+    <p class="sub-nav-header__title sub-heading">{{site['Exhibition Space'].title}}</p>
+    <a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">
+      <p class="sub-nav-header__subtitle">{{site['Exhibition Space'].street}}<br>
+      {{site['Exhibition Space'].city}}, {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}</p>
+    </a>
+    <p class="sub-nav-header__subtitle">Free admission</p>
+    <div class="sub-nav__section-divider"></div>
+  </div>
+
+  <ul class="nav" id="sub-nav">
+    <li class="sub-nav__nav-item nav-item scroll active">
+      <a class="nav-link" href="#introduction">Introduction</a>
+    </li>
+    {% if exhibition.has_hidden_biography != true %}
+      <li class="sub-nav__nav-item nav-item scroll">
+      {% if page.artists.size > 1 %}
+        <a class="nav-link" href="#biography">Biographies</a>
+      {% else %}
+        <a class="nav-link" href="#biography">Biography</a>
+      {% endif %}
+      </li>
+    {% endif %}
+    {% assign first_installation_image = page.installation_images | first %}
+    {% if first_installation_image.image %}
+      <li class="sub-nav__nav-item nav-item scroll">
+        <a class="nav-link" href="#installation-views">Installation Views</a>
+      </li>
+    {% endif %}
+    {% if exhibition.press_release_file %}
+      <li class="sub-nav__nav-item nav-item">
+        <a class="nav-link" href="{{exhibition.press_release_file}}" target="_blank">Press Release</a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

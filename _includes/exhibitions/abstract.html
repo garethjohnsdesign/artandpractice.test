@@ -1,0 +1,34 @@
+<div class="row exhibition-abstract">
+  <div class="col-lg-6 hidden-md-down">
+    {% assign abstract_image = exhibition.works_images | first %}
+    <div class="image-container">
+      {% include base/image.html class="exhibition__image image__image" src=abstract_image.image alt=abstract_image.caption %}
+      <div class="image__caption">{{ abstract_image.caption | markdownify }}</div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <a href="{{exhibition.url}}">
+      {% if exhibition.subtitle %}
+        <h3 class="exhibition__subheading">{{ exhibition.subtitle }}</h3>
+      {% endif %}
+      <h2 class="exhibition__heading">{{ exhibition.title }}</h2>
+    </a>
+    <p class="exhibition__showing-date-range">{{ exhibition.start_date | date: '%B %-d, %Y' }} - {{ exhibition.end_date | date: '%B %-d, %Y' }}</p>
+    <p class="exhibition__opening-date">Opening: {{ exhibition.opening_start_date | date: '%B %-d, %Y' }}, <span class="no-wrap">{{ exhibition.opening_start_date | date: '%-I:%M %p' }} - {{ exhibition.opening_end_date | date: '%-I:%M %p' }}</span><br><a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank"> {{ site['Exhibition Space'].street }}, <span class="no-wrap">{{ site['Exhibition Space'].city }}, {{ site['Exhibition Space'].state }} {{ site['Exhibition Space'].zip }}</span></a></p>
+
+    {% if abstract_image.image %}
+      <div class="image-container hidden-lg-up">
+        {% include base/image.html class="exhibition__image image__image" src=abstract_image.image alt=abstract_image.caption %}
+        <div class="image__caption">{{ abstract_image.caption | markdownify }}</div>
+      </div>
+    {% endif %}
+
+    <div class="exhibition__text text">
+      {{ exhibition.abstract_text | markdownify }}
+    </div>
+
+    <a href="{{ exhibition.url }}">
+      <button class="btn btn-primary" >Read More <i class="icon-right-dir"></i></button>
+    </a>
+  </div>
+</div>

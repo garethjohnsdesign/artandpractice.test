@@ -1,0 +1,12 @@
+<div class="row news-abstract news-abstract__abbreviated">
+  <div class="col-xs-12">
+    <a href="{{article.link}}"><p class="news__publication">{{ article.publication }}</p></a>
+    <div class='spacer-sm'></div>
+    <a href="{{article.url}}"><h2 class="news__title">{{ article.title }}</h2></a>
+    {% if article.author_name %}
+      <p class="news__author">By {{ article.author_name }}</p>
+    {% endif %}
+    <div class='spacer-sm'></div>
+    <p class="news__publication-date">{{ article.published_date | date: '%B %-d, %Y' }}</p>
+  </div>
+</div>

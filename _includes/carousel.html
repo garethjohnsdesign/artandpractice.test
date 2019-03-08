@@ -1,0 +1,33 @@
+{% assign first_image = include.images | first %}
+
+{% if first_image.image %}
+  <div id="carousel-example-generic" class="carousel">
+    {% if include.is_carousel != false and include.images.size > 1 %}
+      <p class="carousel__pager-status hidden-md-down"><span class="current-index">1</span> of {{include.images.size}} images <span class="carousel-pager__divider">|</span> <i class="icon-left-dir prev-button"></i><i class="icon-right-dir next-button"></i></p>
+    {% endif %}
+
+    <div class="carousel-inner" role="listbox">
+      {% if include.is_carousel != false %}
+        {% for image in include.images %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}" data-index="{{forloop.index}}">
+            {% include base/image.html class="exhibition__image image__image" src=image.image alt=image.caption %}
+            {% if image.caption %}
+              <div class="image__caption">{{ image.caption | markdownify }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {% for image in include.images %}
+          {% if include.unfold == true or include.unfold != true and forloop.first == true %}
+            <div class="carousel-item active" data-index="{{forloop.index}}">
+              {% include base/image.html class="exhibition__image image__image" src=image.image alt=image.caption %}
+              {% if image.caption %}
+                <div class="image__caption">{{ image.caption | markdownify }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

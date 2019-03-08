@@ -1,0 +1,262 @@
+---
+layout: default
+---
+
+<div class="donate-container__inner-container">
+  <form action="" method="POST" id="payment-form">
+    <div class="container">
+      
+      <div class="row subheader">
+        <div class="col-xs-12 col-sm-12">
+          <div class="container">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 section-header">
+              <h1 class="section-header__title">{{ page.visual_title }}</h1>
+              <div class="section-header__underline"></div>
+              <div class="section-header__description text">
+                {{ page.content | markdownify }}
+
+                <p>Click <a href="#" class="show-other-ways"><strong>here</strong></a> to learn other ways to donate</p>
+              </div>
+            </div>
+          </div>
+          <div class="section-divider"></div>
+        </div>
+      </div>
+      
+      <div class="row subscribe-form__notification-lg subscribe-form__notification-danger">
+        <div class="alert alert-danger" role="alert">
+          {{ site['donation_failure_notification_text'] | markdownify }}
+          
+          <ul class="notification__errors"></ul>
+        </div>
+      </div>
+      <div class="row donate-container__other-ways">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+              <div class="donate-container__copy">
+                <div>
+                  {{ page.other_ways_text | markdownify }}
+                </div>
+              </div>
+              <div class="spacer-xl"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row donate-container__success">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+              <div class="donate-container__copy">
+                <div class="text">
+                  {{ page.successful_donation_text | markdownify }}
+                </div>
+
+                <div class="donate-container__huge">{{ page.thank_you | markdownify }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row donate-container__form">
+        <div class="col-lg-4">
+          <p class="section-header__title">Donation Listing</p>
+          <div class="form-group donation-attribution">
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-type" id="gridRadios1" value="public" checked>
+                <p>List my name in the annual report</p>
+                <input type="text" class="form-control form-control__conditional" name="preferred-annual-report-listing" id="preferred-annual-report-listing" placeholder="Name">
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-type" id="gridRadios2" value="proxy">
+                <p>Make donation in:
+                <select name="donation-proxy-type" class="input-inline">
+                  <option value="honorOf">honor of</option>
+                  <option value="memoryOf">memory of</option>
+                </select></p>
+                <input type="name" class="form-control form-control__conditional donation-input-hidden" name="donation-proxy-name" placeholder="Name">
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-type" id="gridRadios1" value="anonymous">
+                <p>List my donation anonymously</p>
+              </label>
+            </div>
+          </div>
+          <p class="section-header__title">Donation Use</p>
+          <div class="spacer-lg"></div>
+          <fieldset class="form-group">
+            <p>Please direct my A+P donation to:</p>
+            <div class="spacer-lg"></div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-use" id="gridRadios1" value="public-programs">
+                <p>Public Programs</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-use" id="gridRadios1" value="exhibitions">
+                <p>Exhibitions</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-use" id="gridRadios1" value="foster-youth">
+                <p>Foster Youth</p>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="donation-use" id="gridRadios1" value="unrestricted" checked>
+                <p>Unrestricted Use</p>
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="col-lg-4">
+          <p class="section-header__title">Donation Amount (USD)</p>
+          <div class="spacer-lg"></div>
+          <fieldset class="form-group">
+            <div class="container">
+              <div class="donation-amount-radio">
+                {% for donation_amount in page.donation_levels %}
+                  <div class="col-xs-3">
+                    <label class="radio">${{donation_amount}}</label>
+                    <input type="radio" name="amount-select" id="inlineRadio1" value="{{donation_amount}}">
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="spacer-lg"></div>
+            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+            <div class="input-group">
+              <div class="input-group-addon">$</div>
+              <input type="text" class="form-control donation-amount" name="amount-manual" id="amount" placeholder="Amount">
+              <div class="input-group-addon">.00</div>
+            </div>
+
+            <div class="checkbox include-transaction-fee-container">
+              <label>
+                <input type="checkbox" name="include-transaction-fee" id="includeTransactionFee" value="yes">
+                <p>I choose to cover the credit card processing fees <span class="transaction-fee-amount"></span>to ensure that A+P receives 100% of my contribution.</p>
+              </label>
+            </div>
+
+            <small class="text-muted">All amounts in USD</small>
+          </fieldset>
+          <div class="section-divider section-divider__sm"></div>
+          <p class="section-header__title">Payment Information</p>
+          <p class="processing-explanation">Donations processed with <i class="icon-cc-stripe stripe-logo"></i></p>
+          <fieldset>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="card-number">Card Number</label>
+              <input type="text" class="form-control" name="card-number" id="card-number" data-stripe="number">
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="expiry-month">Expiration Date</label>
+              <div class="row">
+                <div class="col-xs-4">
+                  <select class="c-select form-control col-sm-2" name="expiry-month" id="expiry-month" data-stripe="exp_month">
+                    <option></option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <small class="text-muted">Month</small>
+                </div>
+                <div class="col-xs-4">
+                  <select class="c-select form-control" name="expiry-year" data-stripe="exp_year">
+                    <option></option>
+                  </select>
+                  <small class="text-muted">Year</small>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="cvv">Card CVV</label>
+              <div class="row">
+                <div class="col-xs-4">
+                  <input type="text" class="form-control" name="cvv" id="cvv" data-stripe="cvc">
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="col-lg-4">
+          <p class="section-header__title">Contact Information</p>
+          <fieldset>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="first-name">First Name</label>
+              <input type="text" class="form-control" name="first-name" id="first-name">
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="last-name">Last Name</label>
+              <input type="text" class="form-control" name="last-name" id="last-name">
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="email">Email Address</label>
+              <input type="email" class="form-control" name="email" id="email">
+              <small class="text-muted">We won't sell your email address</small>
+            </div>
+            <div class="form-group">
+              <label class="control-labeld" for="phone">Phone Number</label>
+              <input type="tel" class="form-control" name="phone" id="phone">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="company">Company Name</label>
+              <input type="text" class="form-control" name="company" id="company">
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="address-street-1">Address Street 1</label>
+              <input type="text" class="form-control" name="address-street-1" id="address-street-1">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="address-street-2">Address Street 2</label>
+              <input type="text" class="form-control" name="address-street-2" id="address-street-2">
+            </div>
+            <div class="form-group">
+              <label class="control-label control-label__required" for="address-zip-code">Zip Code</label>
+              <input type="tel" limit="5" class="form-control" name="address-zip-code" id="address-zip-code">
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-8">
+                  <div class="form-group">
+                    <label class="control-label control-label__required" for="address-city">City</label>
+                    <input type="text" class="form-control" name="address-city" id="address-city">
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="form-group">
+                    <label class="control-label control-label__required" for="address-state">State</label>
+                    <input type="text" limit="2" class="form-control" name="address-state" id="address-state">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-divider section-divider__sm"></div>
+            <div class="spacer-xl"></div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-donate submit btn__pull-right" value="SUBMIT DONATION">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

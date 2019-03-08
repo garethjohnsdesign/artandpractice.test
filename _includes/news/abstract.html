@@ -1,0 +1,28 @@
+<div class="row news-abstract">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        {% assign abstract_image = article.images | first %}
+        <div class="image-container">
+          {% include base/image.html class="news__image image__image" src=abstract_image.image %}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <a href="{{article.url}}">
+          <p class="news__publication">{{ article.publication }}</p>
+          <div class='spacer-sm'></div>
+          <h2 class="news__title">{{ article.title }}</h2>
+        </a>
+        {% if article.author_name %}
+          <p class="news__author">By {{ article.author_name }}</p>
+        {% endif %}
+        <div class='spacer-sm'></div>
+        <p class="news__publication-date">{{ article.published_date | date: '%B %-d, %Y' }}</p>
+        <div class='spacer-lg'></div>
+        <a href="{{ article.url }}">
+          <button class="btn btn-primary" >Read More <i class="icon-right-dir"></i></button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

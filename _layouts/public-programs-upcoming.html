@@ -1,0 +1,59 @@
+---
+layout: default
+section: public-programs
+---
+
+{% include page-subheader.html title='Public Programs' content=site.public_programs_description %}
+
+<div class="row content">
+  <div class="col-md-4 col-lg-3">
+    {% include public-programs/nav.html active="upcoming" %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    <div class="hidden-md-up">
+      {% include base/grouping-heading.html text="upcoming" %}
+    </div>
+    {% if site.public_programs_upcoming.size != 0 %}
+      {% assign collection = site.public_programs_upcoming | sort: 'start_date' %}
+      {% for public_program in collection %}
+        {% include public-programs/abstract.html public_program=public_program %}
+
+        {% if forloop.last != true %}
+          <div class="section-divider"></div>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <div class="row no-upcoming-public-programs">
+        <div class="col-xs-12 col-md-8">
+          {% assign notification_content = site['no_upcoming_public_programs']['text'] | replace: "%here_link%", "**<a href='#'>here</a>**" %}
+          
+          {{ notification_content | markdownify }}
+          <div class="spacer-xl"></div>
+          {% include base/image.html style="width: 100%" src=site.no_upcoming_public_programs.image.image alt="no upcoming public programs" %}
+          <div class="image__caption">{{ site['no_upcoming_public_programs']['image']['caption'] | markdownify }}</div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+<div class="row hidden-md-up">
+  <div class="col-xs-12">
+    <div class="section-divider"></div>
+    {% include base/grouping-heading.html text="past" %}
+    {% if site.public_programs_past.size != 0 %}
+      {% assign collection = site.public_programs_past | sort: 'start_date' | reverse %}
+      {% for public_program in collection limit:5 %}
+        {% include public-programs/abstract-abbreviated-mobile.html public_program=public_program %}
+
+        {% if forloop.last != true %}
+          <div class="section-divider section-divider__sm"></div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include public-programs/nav.html active="upcoming" hidden=true %}
+  </div>
+</div>

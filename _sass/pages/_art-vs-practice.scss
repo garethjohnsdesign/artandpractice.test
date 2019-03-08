@@ -1,0 +1,36 @@
+.collaborators__copy {
+  margin-bottom: $base-margin-xl;
+}
+
+.collaborators {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .section-divider {
+    margin-top: $base-margin-lg;
+    margin-bottom: $base-margin-lg;
+  }
+}
+
+.collaborators__collaborator {
+  margin-top: $base-margin-xxl;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    margin-bottom: $base-margin-xxxl;
+  }
+
+  .grouping-heading {
+    width: 100%;
+  }
+}
+
+.collaborator__image {
+  width: 100%;
+  margin-bottom: $base-margin-lg;
+}
+
+.collaborator__info {
+  font-size: $font-size-sm;
+}

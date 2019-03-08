@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% include page-subheader.html title='News' %}
+
+<div class="row news-show content">
+  <div class="col-md-4 col-lg-3">
+    {% include news/nav.html active="recent" %}
+  </div>
+  <div class="col-md-8 col-lg-9 news-show__content-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="{{page.link}}">
+            <p class="news__publication">{{ page.publication }}</p>
+            <div class='spacer-sm'></div>
+            <h2 class="news__heading">{{ page.title }}</h2>
+          </a>
+          {% if page.author_name %}
+            <p class="news__author">By {{ page.author_name }}</p>
+          {% endif %}
+          <div class='spacer-sm'></div>
+          <p class="news__publication-date">{{ page.published_date | date: '%B %-d, %Y' }}</p>
+          <div class='spacer-lg'></div>
+        </div>
+      </div>
+      <div class="row hidden-md-down">
+        <div class="col-md-6 text">
+          {{ page.content | markdownify }}
+        </div>
+        <div class="col-md-6">
+          {% assign abstract_image = page.images | first %}
+          <div class="image-container">
+            {% include base/image.html class="news__image image__image" src=abstract_image.image %}
+            <div class="image__caption">
+              {% if abstract_image.caption %}
+                {{ abstract_image.caption | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row hidden-lg-up">
+        <div class="col-xs-12 text">
+          <div class="image-container">
+            {% include base/image.html class="news__image image__image" src=abstract_image.image %}
+            <div class="image__caption">
+              {% if abstract_image.caption %}
+                {{ abstract_image.caption | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+          {{ page.content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include news/nav.html active="recent" hidden=true %}
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="public-program-abstract">
+  <div class="container">
+    <div class='spacer-lg'></div>
+    <div class="row">
+      {% assign abstract_image = exhibition.works_images | first %}
+      {% if abstract_image.caption %}
+        <div class="col-sm-12 col-md-6">
+          <div class="image-container">
+            {% include base/image.html class="exhibition__image image__image" src=abstract_image.image alt=abstract_image.caption %}
+          </div>
+        </div>
+      {% endif %}
+      <div class="col-sm-12 col-md-6">
+        {% if exhibition.start_date > include.month_start_date %}
+          <p class="exhibition__showing-date-range">On view {{ exhibition.start_date | date: '%B %-d' }} through {{ exhibition.end_date | date: '%B %-d' }}</p>
+        {% else %}
+          <p class="exhibition__showing-date-range">On view through {{ exhibition.end_date | date: '%B %-d' }}</p>
+        {% endif %}
+        <a href="{{exhibition.url}}"><h2 class="public-program__title">{{ exhibition.title }}</h2></a>
+        <div class='spacer-sm'></div>
+        <p class="exhibition__opening-date">{% if exhibition.start_date >= include.month_start_date %}Opening: {{ exhibition.opening_start_date | date: '%B %-d' }}, <span class="no-wrap">{{ exhibition.opening_start_date | date: '%-I:%M %p' }} - {{ exhibition.opening_end_date | date: '%-I:%M %p' }}</span><br>{% endif %}<a href="https://www.google.com/maps?q={{site['Exhibition Space'].street}} {{site['Exhibition Space'].city}} {{site['Exhibition Space'].state}} {{site['Exhibition Space'].zip}}" target="blank">{{ site['Exhibition Space'].street }}, <span class="no-wrap">{{ site['Exhibition Space'].city }}, {{ site['Exhibition Space'].state }} {{ site['Exhibition Space'].zip }}</span></a><br>{{site['Exhibition Space'].hours}}</p>
+        <a href="{{ exhibition.url }}">
+          <button class="btn btn-primary btn__pull-right" >Read More <i class="icon-right-dir"></i></button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

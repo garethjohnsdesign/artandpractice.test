@@ -1,0 +1,53 @@
+---
+layout: default
+section: public-programs
+---
+
+{% include page-subheader.html title='Past Public Programs' content=site.public_programs_description %}
+
+<div class="row public-program-past content">
+  <div class="col-md-4 col-lg-3">
+    {% include public-programs/nav.html active="past" %}
+  </div>
+  <div class="col-md-8 col-lg-9">
+    <div class="hidden-sm-down">
+      {% assign public_programs_grouped_by_year = site.public_programs_past | group_by: 'start_date_year' | reverse %}
+
+      {% if public_programs_grouped_by_year.size > 1 %}
+        {% include tabs.html grouping=public_programs_grouped_by_year grouping-prefix='public-program-year' %}
+        <div class="section-divider section-divider__sm"></div>
+      {% endif %}
+    </div>
+
+    <div class="hidden-sm-down">
+      <div class="tab-content">
+        {% for public_program_year in public_programs_grouped_by_year %}
+          <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="public-program-year-{{public_program_year.name}}" role="tabpanel">
+            {% assign collection = public_program_year.items | sort: 'start_date' | reverse %}
+            {% for public_program in collection %}
+              {% include public-programs/abstract.html public_program=public_program %}
+              {% if forloop.length > 1 and forloop.last == false %}
+                <div class="section-divider"></div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="hidden-md-up">
+      {% assign collection = site.public_programs_past | sort: 'start_date' | reverse %}
+      {% for public_program in collection %}
+        {% include public-programs/abstract-abbreviated-mobile.html public_program=public_program %}
+        {% if forloop.length > 1 and forloop.last == false %}
+          <div class="section-divider"></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-lg-3 bottom-nav">
+    {% include public-programs/nav.html active="past" hidden=true %}
+  </div>
+</div>

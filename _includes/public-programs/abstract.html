@@ -1,0 +1,32 @@
+<div class="public-program-abstract">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="public-program__date">{{ public_program.start_date | date: '%B %-d, %Y' }}</p>
+        <p class="public-program__time-range">{{ public_program.start_date | date: '%-I %p' }} - {{ public_program.end_date | date: '%-I %p' }}</p>
+        <div class='spacer-sm'></div>
+        <a href="{{public_program.url}}"><h2 class="public-program__title">{{ public_program.title }}</h2></a>
+      </div>
+    </div>
+    <div class='spacer-lg'></div>
+    <div class="row">
+      {% assign abstract_image = public_program.program_images | first %}
+
+      {% if abstract_image.caption %}
+        <div class="col-sm-6 col-md-12 col-lg-6">
+          <div class="image-container">
+            {% include base/image.html class="public-program__image image__image" src=abstract_image.image %}
+          </div>
+        </div>
+      {% endif %}
+      <div class="col-sm-6 col-md-12 col-lg-6">
+        <div class="public-program__text text">
+          {{ public_program.abstract_text | markdownify }}
+        </div>
+        <a href="{{ public_program.url }}">
+          <button class="btn btn-primary btn__pull-right" >Read More <i class="icon-right-dir"></i></button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

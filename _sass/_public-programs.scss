@@ -1,0 +1,75 @@
+.public-program__date {
+  font-size: 18px;
+  font-weight: $heavy-font-weight;
+
+  text-transform: uppercase;
+}
+
+.public-program__time-range {
+  font-size: 18px;
+}
+
+.public-program__title {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 34px;
+
+  text-transform: uppercase;
+}
+
+.public-program {}
+
+.public-program__showing-date-range {
+  font-size: 18px;
+
+  padding-bottom: $base-padding-lg;
+}
+
+.public-program__opening-date {
+  font-style: italic;
+
+  padding-bottom: $base-padding-lg;
+}
+
+.public-program__text {
+  strong {
+    font-weight: $medium-font-weight
+  }
+}
+
+.public-program-recording__listen {
+  font-size: 16px;
+  font-weight: $medium-font-weight;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: $brand-blue;
+}
+
+.public-program__heading {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
+
+  padding-bottom: $base-padding;
+
+  text-transform: uppercase;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    font-size: 34px;
+  }
+}
+
+.public-program-abstract__abbreviated {
+  @media screen and (max-width: $grid-breakpoint-md) {
+    margin-bottom: $base-margin-xl;
+  }
+}
+
+.public-program-show {
+  .biography {
+    margin-bottom: $base-margin-xl;
+  }
+}

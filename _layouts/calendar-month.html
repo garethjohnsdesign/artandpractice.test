@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="subheader">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 section-header">
+        <h1 class="section-header__title">
+          <div class="month-link-container">
+            {% if page.index > 0 %}
+              <a href="/calendar/{{page.prev_month | date: '%Y'}}/{{page.prev_month | date: '%m'}}"><i class="icon-left-dir prev-button"></i></a>
+            {% endif %}
+          </div>
+
+          {{ page.month_start_date | date: '%B %Y' }}
+
+          <div class="month-link-container">
+            {% assign number_of_months_less_one = page.number_of_months - 1 %}
+            {% if page.index < number_of_months_less_one %}
+              <a href="/calendar/{{page.next_month | date: '%Y'}}/{{page.next_month | date: '%m'}}"><i class="icon-right-dir next-button"></i></a>
+            {% endif %}
+          </div>
+        </h1>
+        <div class="section-header__underline"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+</div>
+
+<div class="row content">
+  <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+    {% if page.exhibitions.size != 0 %}
+      {% include base/grouping-heading.html text="Exhibitions" %}
+
+      {% for exhibition in page.exhibitions %}
+        {% include exhibitions/abstract-calendar.html exhibition=exhibition month_start_date=page.month_start_date month_end_date=page.month_end_date %}
+
+        {% if forloop.last != true %}
+          <div class="section-divider section-divider__sm"></div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    {% if page.exhibitions.size != 0 and page.public_programs.size != 0 %}
+      <div class="section-divider"></div>
+    {% endif %}
+
+    {% if page.public_programs.size != 0 %}
+      {% include base/grouping-heading.html text="Public Programs" %}
+
+      {% for public_program in page.public_programs %}
+        {% include public-programs/abstract-calendar.html public_program=public_program %}
+
+        {% if forloop.last != true %}
+          <div class="section-divider"></div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

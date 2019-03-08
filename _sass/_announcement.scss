@@ -1,0 +1,29 @@
+.announcement {
+  width: 80%;
+  margin-right: auto;
+  margin-bottom: $base-margin-xxxl;
+  margin-left: auto;
+
+  text-align: center;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    width: 100%;
+  }
+}
+
+.announcement__content {
+  font-size: 24px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  color: $brand-blue;
+
+  @media screen and (max-width: $grid-breakpoint-md) {
+    font-size: 18px;
+  }
+}
+
+.banner {
+  color: $brand-red;
+}
