@@ -40,7 +40,7 @@ layout: default
 
     <div class="row hidden-md-up">
       <div class="col-xs-12">
-        {% assign collection = site.exhibitions_past | sort: 'start_date' | reverse %}
+        {% assign collection = site.exhibitions_past | sort: 'start_date' %}
         {% for exhibition in collection %}
           {% include exhibitions/abstract-abbreviated-mobile.html exhibition=exhibition %}
           {% if forloop.last != true %}
