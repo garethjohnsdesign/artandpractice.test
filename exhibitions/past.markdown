@@ -5,7 +5,6 @@ permalink: exhibitions/past/
 position: 4
 subheader: Past Exhibitions
 section: exhibitions
-footer_scripts: "<script type='text/javascript' src='/assets/javascripts/tab-preference.js'></script>"
 layout: exhibitions-past
 ---
 
