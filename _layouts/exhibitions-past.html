@@ -26,7 +26,8 @@ layout: default
         <div class="tab-content">
           {% for exhibition_year in exhibitions_grouped_by_year %}
             <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="exhibition-year-{{exhibition_year.name}}" role="tabpanel">
-              {% for exhibition in exhibition_year.items %}
+              {% assign exhibition_year_items = exhibition_year.items | sort: 'start_date_year' | reverse %}
+              {% for exhibition in exhibition_year_items %}
                 {% include exhibitions/abstract.html exhibition=exhibition %}
                 {% if forloop.length > 1 and forloop.last == false %}
                   <div class="section-divider"></div>
