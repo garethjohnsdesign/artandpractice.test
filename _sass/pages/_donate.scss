@@ -1,7 +1,13 @@
 .donate-container {
-border: solid 20px $brand-orange;
+  @media screen and (max-width: $grid-breakpoint-md) {
+    border: solid 20px $brand-orange;
+  }
+
+  @media screen and (max-width: $grid-breakpoint-sm) {
+    border: solid 5px $brand-orange;
+  }
   max-width: 100%;
-  padding: 0px;
+  padding: 14px;
   position: relative;
 
   .btn-primary {
